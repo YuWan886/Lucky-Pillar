@@ -1,0 +1,88 @@
+{
+    "type": "multi_action",
+    "title": [
+        "",
+        {
+            "color": "#bd2fc2",
+            "text": "幸"
+        },
+        {
+            "color": "#cf5f85",
+            "text": "运"
+        },
+        {
+            "color": "#e28e47",
+            "text": "之"
+        },
+        {
+            "color": "#f4bd0a",
+            "text": "柱 "
+        },
+        {
+            "text": "| 地图设置"
+        }
+    ],
+    "columns": 2,
+    "actions": [
+        {
+            "label": {
+                "text": "羊毛"
+            },
+            "tooltip": {
+                "text": "经典模式"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger TriggerSetting.Map set 1"
+            }
+        },
+        {
+            "label": {
+                "text": "海洋",
+                "color": "blue"
+            },
+            "tooltip": {
+                "text": "特殊模式",
+                "extra": [
+                    {
+                        "text": "\n - 钓鱼获得物品"
+                    },
+                    {
+                        "text": "\n - 水有剧毒"
+                    }
+                ]
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger TriggerSetting.Map set 2"
+            }
+        },
+        {
+            "label": {
+                "text": "地狱",
+                "color": "dark_red"
+            },
+            "tooltip": {
+                "text": "经典模式",
+                "extra": [
+                    {
+                        "text": " \n - 维度：地狱"
+                    }
+                ]
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger TriggerSetting.Map set 3"
+            }
+        }
+    ],
+    "exit_action": {
+        "label": {
+            "text": "返回"
+        },
+        "action": {
+            "type": "run_command",
+            "command": "trigger TriggerSetting.Dialog set 1"
+        }
+    }
+}

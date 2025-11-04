@@ -12,8 +12,9 @@
 
 # function ./5: 
 #     event("superman","oVo")
-from ./lib/event import event_template
 
+# 事件 
+from ./lib/event import event_template
 
 function yw-pillar:game/event/1_night_fall:
      event_template("夜晚降临","black","黑暗里有点东西")
@@ -58,6 +59,17 @@ function yw-pillar:game/event/9_lightning:
      event_template("雷击","gold","我的避雷针呢？")
      execute as @a[tag=ingame,tag=!out] at @s run summon lightning_bolt ~ ~ ~
 
+# 规则
+from ./lib/rule import rule_template
+
+function yw-pillar:game/rule/1_small_cute:
+     rule_template("小小的也很可爱❤","#f90fce",-7273689,"所有玩家尺寸缩小为原来的 \u00a7r\u00a7l1/3")
+     execute as @a[tag=ingame,tag=!out] run attribute @s scale base set 0.33
+
+function yw-pillar:game/rule/2_big:
+     rule_template("大！大！大！","gold",-38896125,"所有玩家尺寸增大为原来的 \u00a7r\u00a7l3/2")
+     execute as @a[tag=ingame,tag=!out] run attribute @s scale base set 1.5
+# 柱
 from ./lib/pillar import pillar_tempalte
 
 pillar_tempalte("wool","bedrock")

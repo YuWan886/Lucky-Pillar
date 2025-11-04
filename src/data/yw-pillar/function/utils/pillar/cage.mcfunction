@@ -9,6 +9,7 @@ execute if score #Timer BeginTimer matches 0 run gamemode survival @a[tag=ready]
 $execute if score #Timer BeginTimer matches 0 at @r[tag=ingame] run function yw-pillar:game/pillars/$(map_id)/clear_cage
 execute if score #Timer BeginTimer matches 0 as @a at @s run playsound entity.player.levelup master @s
 execute if score #Timer BeginTimer matches 0 run function yw-pillar:schedule/1s
+execute if score #Timer BeginTimer matches 0 if score #Game RuleID matches 1.. run function yw-pillar:game/rule/main
 
 execute if score #Timer BeginTimer matches 1.. as @a at @s run playsound ui.button.click master @s
 

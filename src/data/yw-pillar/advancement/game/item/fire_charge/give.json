@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "fire_charge": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "fire_charge",
+                        "components": {
+                            "item_name": {
+                                "translate": "item.minecraft.fire_charge"
+                            }
+                        },
+                        "count": 1
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "yw-pillar:utils/game/item/fire_charge/give"
+    }
+}

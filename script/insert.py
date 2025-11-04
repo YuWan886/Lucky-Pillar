@@ -13,6 +13,8 @@ data modify storage yw-pillar:settings game set value \
     next:2,\
     player_count:0,\
     event_name:"",\
+    rule_name:"",\
+    rule_id:0,\
     version:"{ctx.project_version}",\
     mc_version:"{ctx.meta.get("mc_version")}",\
     release_time:"{time.strftime("%Y.%m.%d")}"\

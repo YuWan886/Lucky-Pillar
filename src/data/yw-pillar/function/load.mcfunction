@@ -3,6 +3,7 @@ scoreboard objectives add Init dummy
 scoreboard objectives add GameStatus dummy
 scoreboard objectives add GameMode dummy
 scoreboard objectives add EventID dummy
+scoreboard objectives add RuleID dummy
 scoreboard objectives add PlayerCount dummy
 scoreboard objectives add MapNumber dummy
 scoreboard objectives add BorderWidth dummy
@@ -33,9 +34,9 @@ scoreboard objectives modify side displayautoupdate true
 ## Player
 scoreboard objectives add Number dummy
 scoreboard objectives add DeathCheck deathCount
-scoreboard objectives add Delay.Settings dummy
 scoreboard objectives add TriggerSetting.Map trigger
 scoreboard objectives add TriggerSetting.Dialog trigger
+scoreboard objectives add TriggerSetting.Rule trigger
 scoreboard objectives add HP health
 scoreboard objectives setdisplay list HP
 # 统计

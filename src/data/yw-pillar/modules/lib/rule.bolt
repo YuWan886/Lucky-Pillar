@@ -1,0 +1,5 @@
+def rule_template(name,color,shadow_color,desc):
+    tellraw @a "\n\n\n\n=-------------------------=\n"
+    tellraw @a ["",{text:"本局规则：",color:"gold"},{text:f"{name}",color: f"{color}",shadow_color: shadow_color,bold:true}]
+    tellraw @a ["",{text:"效果：",color:"gold"},{text:f"{desc}",color:"blue"}]
+    tellraw @a "\n-------------------------="

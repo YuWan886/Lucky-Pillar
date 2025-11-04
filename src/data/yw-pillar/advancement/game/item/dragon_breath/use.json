@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "dragon_breath_use": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "dragon_breath",
+                    "predicates": {
+                        "custom_data": {
+                            "item": "dragon_breath"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "yw-pillar:utils/game/item/dragon_breath/use"
+    }
+}

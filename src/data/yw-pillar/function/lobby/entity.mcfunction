@@ -18,3 +18,6 @@ summon item_display 108 2 101 {item:{id:"white_dye",components:{item_model:"yw-p
 
 kill @e[tag=lobby.bug]
 summon item_display 108 2 103 {item:{id:"white_dye",components:{item_model:"yw-pillar:bug"}},Tags:["lobby.bug"],Rotation:[90,0],Passengers:[{id:"interaction",Tags:["ita.bug","lobby.bug"]}]}
+
+kill @e[tag=lobby.hahaha]
+summon item_frame 100 2 92 {Item:{id:"stick",components:{custom_model_data:{strings:["hahaha"]}}},Facing:3b,Fixed:true,Invisible:true,Tags:["lobby.hahaha"]}

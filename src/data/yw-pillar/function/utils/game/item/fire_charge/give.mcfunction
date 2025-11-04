@@ -1,4 +1,4 @@
-advancement revoke @s only yw-pillar:game/item/fire_charge
+advancement revoke @s only yw-pillar:game/item/fire_charge/give
 
 clear @s fire_charge[!consumable] 1
 

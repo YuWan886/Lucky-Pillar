@@ -1,0 +1,78 @@
+{
+    "type": "multi_action",
+    "title": [
+        "",
+        {
+            "color": "#bd2fc2",
+            "text": "幸"
+        },
+        {
+            "color": "#cf5f85",
+            "text": "运"
+        },
+        {
+            "color": "#e28e47",
+            "text": "之"
+        },
+        {
+            "color": "#f4bd0a",
+            "text": "柱 "
+        },
+        {
+            "text": "| 特殊规则"
+        }
+    ],
+    "columns": 3,
+    "actions": [
+                {
+            "label": {
+                "text": "关闭特殊规则",
+                "color": "red",
+                "bold": true
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger TriggerSetting.Rule set 99"
+            }
+        },
+        {
+            "label": {
+                "text": "小小的也很可爱❤",
+                "color": "#f90fce",
+                "shadow_color": -7273689,
+                "bold": true
+            },
+            "tooltip": {
+                "text": "所有玩家尺寸缩小为原来的 \u00a7r\u00a7l1/3"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger TriggerSetting.Rule set 1"
+            }
+        },
+        {
+            "label": {
+                "text": "大！大！大！",
+                "color": "gold",
+                "shadow_color": -38896125,
+                "bold": true
+            },
+            "tooltip": {
+                "text": "所有玩家尺寸增大为原来的 \u00a7r\u00a7l3/2"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger TriggerSetting.Rule set 2"
+            }
+        }
+    ],
+    "exit_action": {
+        "label": {
+            "text": "返回"
+        },
+        "action": {
+            "type": "run_command",
+            "command": "trigger TriggerSetting.Dialog set 1"
+        }
+    }
+}

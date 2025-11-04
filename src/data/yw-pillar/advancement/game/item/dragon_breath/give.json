@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "dragon_breath": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "dragon_breath",
+                        "components": {
+                            "item_name": {
+                                "translate": "item.minecraft.dragon_breath"
+                            }
+                        },
+                        "count": 1
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "yw-pillar:utils/game/item/dragon_breath/give"
+    }
+}

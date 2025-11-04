@@ -1,9 +1,7 @@
-advancement revoke @s only yw-pillar:game/item/fire_charge_use
+advancement revoke @s only yw-pillar:game/item/fire_charge/use
 
-function yw-pillar:utils/other/motion {scale:0.4}
+function yw-pillar:utils/other/motion/input_fireball with entity @s
 
 execute anchored eyes run summon fireball ^ ^-0.1 ^0.2
 
-execute as @e[type=fireball,distance=..2] run data modify entity @s Motion[0] set from storage yw-pillar:temp motion.x
-execute as @e[type=fireball,distance=..2] run data modify entity @s Motion[1] set from storage yw-pillar:temp motion.y
-execute as @e[type=fireball,distance=..2] run data modify entity @s Motion[2] set from storage yw-pillar:temp motion.z
+function yw-pillar:utils/game/item/fire_charge/use_2 with entity @s
