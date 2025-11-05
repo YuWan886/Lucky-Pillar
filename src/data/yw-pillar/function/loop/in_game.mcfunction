@@ -8,3 +8,7 @@ function yw-pillar:game/pillars/location
 execute as @a[tag=!ingame,tag=!spectator,tag=!ready] run function yw-pillar:utils/player/join_halfway
 # 随机事件
 function yw-pillar:game/event/duration_tick
+# 特殊规则
+function yw-pillar:game/rule/effect
+# 生成生物
+execute as @a[tag=ingame,tag=!out] run function yw-pillar:utils/game/entity/summon

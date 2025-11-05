@@ -1,0 +1,68 @@
+{
+    "period_ticks": 6000,
+    "tracks": {
+        "gameplay/sky_light_level": {
+            "keyframes": [
+                {
+                    "ticks": 33,
+                    "value": 0.26666668
+                },
+                {
+                    "ticks": 2967,
+                    "value": 0.26666668
+                },
+                {
+                    "ticks": 3417,
+                    "value": 1.0
+                },
+                {
+                    "ticks": 5582,
+                    "value": 1.0
+                }
+            ],
+            "modifier": "multiply"
+        },
+        "visual/sky_color": {
+            "keyframes": [
+                {
+                    "ticks": 33,
+                    "value": "#cea2a2"
+                },
+                {
+                    "ticks": 2967,
+                    "value": "#bf5a5a"
+                },
+                {
+                    "ticks": 3417,
+                    "value": "#e94040"
+                },
+                {
+                    "ticks": 5582,
+                    "value": "#ff0000"
+                }
+            ],
+            "modifier": "multiply"
+        },
+        "visual/sky_light_factor": {
+            "keyframes": [
+                {
+                    "ticks": 182,
+                    "value": 0.24
+                },
+                {
+                    "ticks": 2817,
+                    "value": 0.24
+                },
+                {
+                    "ticks": 3285,
+                    "value": 1.0
+                },
+                {
+                    "ticks": 5715,
+                    "value": 1.0
+                }
+            ],
+            "modifier": "multiply"
+        }
+    }
+}

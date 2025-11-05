@@ -38,7 +38,7 @@ pipeline:
     
     
 meta:
-    mc_version: "25w44a"
+    mc_version: "25w45a"
     bolt:
       entrypoint: 
         - '*'

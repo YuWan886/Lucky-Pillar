@@ -1,0 +1,1 @@
+$execute as @s if entity @e[type=fox,tag=rule.3_my_partner,nbt={Trusted:[$(UUID),[I;0,0,0,0]]}] run function yw-pillar:game/rule/3_my_partner/run_2

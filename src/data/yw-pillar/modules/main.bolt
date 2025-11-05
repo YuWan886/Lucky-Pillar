@@ -48,27 +48,34 @@ function yw-pillar:game/event/6_rain/tip:
 
 function yw-pillar:game/event/7_sky_waker/tip:
      event_template("踏空","aqua","\u00a7r\u00a74恐怖如斯")
-     scoreboard players set #Game EventID 7
 
 function yw-pillar:game/event/8_rotation/tip:
      event_template("自转","#1de6f0","oiiaioooooiai")
-     scoreboard players set #Game EventID 8
      scoreboard players set #Timer EventDura.Tick 600
 
 function yw-pillar:game/event/9_lightning:
      event_template("雷击","gold","我的避雷针呢？")
      execute as @a[tag=ingame,tag=!out] at @s run summon lightning_bolt ~ ~ ~
+function yw-pillar:game/event/10_hello_world:
+     event_template("你好,世界","green","Hello World!")
+     time set day
+     execute as @a[tag=ingame,tag=!out] run effect give @s instant_health 5 31 true
 
 # 规则
 from ./lib/rule import rule_template
 
 function yw-pillar:game/rule/1_small_cute:
-     rule_template("小小的也很可爱❤","#f90fce",-7273689,"所有玩家尺寸缩小为原来的 \u00a7r\u00a7l1/3")
+     rule_template("小小的也很可爱❤","#f90fce",-7273689,"所有玩家尺寸缩小为原来的 §l1/3")
      execute as @a[tag=ingame,tag=!out] run attribute @s scale base set 0.33
 
 function yw-pillar:game/rule/2_big:
-     rule_template("大！大！大！","gold",-38896125,"所有玩家尺寸增大为原来的 \u00a7r\u00a7l3/2")
+     rule_template("大！大！大！","gold",-38896125,"所有玩家尺寸增大为原来的 §l3/2")
      execute as @a[tag=ingame,tag=!out] run attribute @s scale base set 1.5
+function yw-pillar:game/rule/3_my_partner/tip:
+     rule_template("我的伙伴","blue",-48357795,"获得一只 §l狐狸\n  狐狸存活时,给玩家提供力量和生命回复")
+     execute as @a[tag=ingame,tag=!out] run function yw-pillar:utils/rule/fox_give with entity @s
+
+
 # 柱
 from ./lib/pillar import pillar_tempalte
 

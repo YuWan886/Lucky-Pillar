@@ -1,0 +1,14 @@
+{
+  "type": "yw-pillar:red_moon",
+  "generator": {
+    "type": "flat",
+    "settings": {
+      "layers": [
+        {
+          "block": "air",
+          "height": 0
+        }
+      ]
+    }
+  }
+}

@@ -11,6 +11,7 @@ execute if score #Game EventID matches 6 run function yw-pillar:game/event/6_rai
 execute if score #Game EventID matches 7 run function yw-pillar:game/event/7_sky_waker/tip
 execute if score #Game EventID matches 8 run function yw-pillar:game/event/8_rotation/tip
 execute if score #Game EventID matches 9 run function yw-pillar:game/event/9_lightning
+execute if score #Game EventID matches 10 run function yw-pillar:game/event/10_hello_world
 
 execute store result score #Timer EventTimer run data get storage yw-pillar:settings time.event_time
 

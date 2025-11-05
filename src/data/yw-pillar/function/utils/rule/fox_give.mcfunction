@@ -1,0 +1,1 @@
+$give @s fox_spawn_egg[entity_data={id:"fox",Trusted:[$(UUID),[I;0,0,0,0]],Tags:["rule.3_my_partner"],CustomName:{text:"",color:"gold",bold:true,extra:[{text:"的狐狐"}]}},custom_name={text:"我的伙伴",italic:false,color:"light_purple"},lore=[{text:"右键召唤狐狐",italic:false,color:"gray"}]]

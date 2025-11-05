@@ -31,7 +31,7 @@ function yw-pillar:game/pillars/reset_1
 function yw-pillar:lobby/entity
 function yw-pillar:utils/player/reset/enderchest
 execute as @a run function yw-pillar:utils/player/reset/attritube
-schedule function yw-pillar:game/sidebar/lobby 5t
+schedule function yw-pillar:game/sidebar/lobby 3t
 
 data modify storage yw-pillar:settings game.event_name set value ''
 
