@@ -72,7 +72,7 @@ def beet_default(ctx: Context) -> None:
 			pack_type = "资源包"
 
 		# Create archive filename
-		archive_path = f"{Mem.ctx.output_directory}/[{pack_version}]{pack_name}-{pack_type}.zip"
+		archive_path = f"{Mem.ctx.output_directory}/[{pack_version}][{pack_type}]{pack_name}.zip"
 
 		# Create zip archive using pack.dump() to avoid interfering with existing directories
 		# This approach writes pack contents directly to a zip file without modifying the original pack structure

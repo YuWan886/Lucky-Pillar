@@ -1,0 +1,1 @@
+execute as @a at @s unless dimension yw-pillar:the_nether_2 run tp @s @r[tag=ingame,tag=!out]

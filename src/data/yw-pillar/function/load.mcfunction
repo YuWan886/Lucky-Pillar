@@ -2,6 +2,7 @@
 scoreboard objectives add Init dummy
 scoreboard objectives add GameStatus dummy
 scoreboard objectives add GameMode dummy
+scoreboard objectives add GameID dummy
 scoreboard objectives add EventID dummy
 scoreboard objectives add RuleID dummy
 scoreboard objectives add PlayerCount dummy

@@ -8,7 +8,8 @@
           "block": "air",
           "height": 0
         }
-      ]
+      ],
+      "biome": "the_void"
     }
   }
 }

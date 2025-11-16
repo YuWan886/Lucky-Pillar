@@ -1,23 +1,26 @@
 {
     "criteria": {
-        "fire_charge": {
+        "tnt": {
             "trigger": "inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": "fire_charge",
+                        "items": "tnt",
                         "components": {
                             "item_name": {
-                                "translate": "item.minecraft.fire_charge"
+                                "translate": "block.minecraft.tnt"
                             }
                         },
-                        "count": 1
+                        "count": {
+                            "min": 1,
+                            "max": 64
+                        }
                     }
                 ]
             }
         }
     },
     "rewards": {
-        "function": "yw-pillar:utils/game/item/fire_charge/give"
+        "function": "yw-pillar:utils/game/item/tnt/give"
     }
 }

@@ -1,3 +1,5 @@
+execute as @s[tag=!ingame] run return fail
+
 scoreboard players set @s DeathCheck 0
 scoreboard players add @s DeathCount 1
 
@@ -8,6 +10,6 @@ gamemode spectator @s
 tag @s add out
 team join Out
 
-execute if score #Game MapNumber matches 3 as @s run tp @r[tag=ingame,tag=!out]
+execute if score #Game MapNumber matches 3 run schedule function yw-pillar:game/pillars/nether/dead 10t
 
 execute if score #Game PlayerCount.Alive matches 1 as @a[tag=ingame,tag=!out] run function yw-pillar:game/progress/win/individual

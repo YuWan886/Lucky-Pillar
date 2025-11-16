@@ -11,7 +11,10 @@
                                 "translate": "item.minecraft.dragon_breath"
                             }
                         },
-                        "count": 1
+                        "count": {
+                            "min": 1,
+                            "max": 64
+                        }
                     }
                 ]
             }

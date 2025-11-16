@@ -1,6 +1,6 @@
 {
     "menu.game": "\uE000",
     "container.crafting": "\uDAFF\uDFA1§f\uE001",
-    "multiplayer.player.joined": " §a+ %s",
-    "multiplayer.player.left": " §c- %s"
+    "multiplayer.player.joined": "§l§6[Tips]§r §a+ %s",
+    "multiplayer.player.left": "§l§6[Tips]§r §c- %s"
 }

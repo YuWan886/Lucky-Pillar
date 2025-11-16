@@ -2,7 +2,7 @@
 
 > **Version**: 0.1.4
 > **Author**: 一条鱼丸_
-> **Minecraft**: 25w45a
+> **Minecraft**: 25w46a
 
 ## Game Introduction
 
@@ -40,6 +40,10 @@
 | **Rotation** | Players automatically rotate |
 | **Lightning Strike** | Random lightning attacks |
 | **Hello, World** | Turns to daytime, fully restores health |
+| **「Undying」** | Obtain a totem of undying |
+| **Broken Leg** | Unable to jump |
+| **One-Hit Kill** | Player attack damage becomes 40 |
+| **CREEPER** | Summons a creeper, with 10% chance of charged creeper |
 
 ### Special Rules
 
@@ -50,10 +54,11 @@
 | **Small but Cute** | All players' size reduced to 1/3 of original |
 | **Big! Big! Big!** | All players' size increased to 3/2 of original |
 | **My Partner** | Obtain a fox that provides strength and health regeneration while alive |
+| **One-Hit Kill** | Player attack damage becomes 40 |
 
 ### Game Mechanics
 
 #### Border System
 - World border gradually shrinks over time
-- When border shrinks to 3 blocks wide, platforms start collapsing
+- When border shrinks to 5 blocks wide, platforms start collapsing
 - Each collapse height is 30 blocks

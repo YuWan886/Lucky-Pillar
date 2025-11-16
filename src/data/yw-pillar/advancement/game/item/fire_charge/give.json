@@ -11,7 +11,10 @@
                                 "translate": "item.minecraft.fire_charge"
                             }
                         },
-                        "count": 1
+                        "count": {
+                            "min": 1,
+                            "max": 64
+                        }
                     }
                 ]
             }

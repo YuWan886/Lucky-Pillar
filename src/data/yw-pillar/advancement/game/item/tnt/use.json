@@ -1,13 +1,13 @@
 {
     "criteria": {
-        "fire_charge_use": {
+        "tnt_use": {
             "trigger": "consume_item",
             "conditions": {
                 "item": {
-                    "items": "fire_charge",
+                    "items": "tnt",
                     "predicates": {
                         "custom_data": {
-                            "item": "fire_charge"
+                            "item": "tnt"
                         }
                     }
                 }
@@ -15,6 +15,6 @@
         }
     },
     "rewards": {
-        "function": "yw-pillar:utils/game/item/fire_charge/use"
+        "function": "yw-pillar:utils/game/item/tnt/use"
     }
 }

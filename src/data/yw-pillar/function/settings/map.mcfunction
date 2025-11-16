@@ -9,7 +9,8 @@ tellraw @a "\n=-------------------------="
     execute if score @s TriggerSetting.Map matches 1 run data modify storage yw-pillar:settings game merge value {previous:1,current:1,next:2,map_name:"羊毛",map_id:wool}
     execute if score @s TriggerSetting.Map matches 1 run function aj:pillar/wool
 # 海洋
-execute if score @s TriggerSetting.Map matches 2 run data modify storage yw-pillar:settings game merge value {previous:1,current:2,next:3,map_name:"海洋",map_id:sea}
+    execute if score @s TriggerSetting.Map matches 2 run data modify storage yw-pillar:settings game merge value {previous:1,current:2,next:3,map_name:"海洋",map_id:sea}
+    execute if score @s TriggerSetting.Map matches 2 run function aj:pillar/sea
 # 地狱
     execute if score @s TriggerSetting.Map matches 3 run data modify storage yw-pillar:settings game merge value {previous:2,current:3,next:3,map_name:"地狱",map_id:nether}
     execute if score @s TriggerSetting.Map matches 3 run function aj:pillar/nether

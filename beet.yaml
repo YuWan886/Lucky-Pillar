@@ -32,13 +32,14 @@ resource_pack:
 pipeline:
     - mecha
     # - src.plugin.archive
-    - script.custom_function_headers
+    # - script.try
     - script.insert
+    - script.custom_function_headers
     - stewbeet.plugins.auto.headers
     
     
 meta:
-    mc_version: "25w45a"
+    mc_version: "25w46a"
     bolt:
       entrypoint: 
         - '*'

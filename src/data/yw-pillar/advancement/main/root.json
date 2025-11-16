@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "first_play": {
+            "trigger": "tick"
+        }
+    },
+    "display": {
+        "title": {
+            "text": "幸运之柱"
+        },
+        "description": {
+            "text": "欢迎游玩《幸运之柱》"
+        },
+        "icon": {
+            "id": "gold_block"
+        },
+        "background": "block/quartz_bricks"
+    },
+    "rewards": {
+        "function": "yw-pillar:utils/player/join/first"
+    }
+}
