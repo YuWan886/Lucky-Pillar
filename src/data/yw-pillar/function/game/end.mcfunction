@@ -11,6 +11,7 @@ scoreboard players set #Game BorderWidth 1145
 scoreboard players set #Game CollapseTimes 0
 scoreboard players set #Game EventID 0
 scoreboard players add @a[tag=ingame] CompletedCount 1
+scoreboard players set @a Number 0
 scoreboard players reset * var
 
 scoreboard objectives remove KilledCheck
@@ -28,10 +29,8 @@ spawnpoint @a 100 3 100
 
 function yw-pillar:game/pillars/reset_1
 function yw-pillar:lobby/entity
-function yw-pillar:utils/player/reset/enderchest
-function yw-pillar:utils/player/reset/xp
-execute as @a run function yw-pillar:utils/player/reset/attritube
-schedule function yw-pillar:game/sidebar/lobby 3t
+execute as @a run function yw-pillar:utils/player/reset/all
+schedule function yw-pillar:game/sidebar/lobby 5t
 
 data modify storage yw-pillar:settings game.event_name set value ''
 

@@ -18,3 +18,4 @@ tellraw @a "\n=-------------------------="
 function yw-pillar:dialog/settings/menu with storage yw-pillar:settings game
 scoreboard players set @s TriggerSetting.Map 0
 function yw-pillar:game/sidebar/lobby
+playsound ui.cartography_table.take_result master @s

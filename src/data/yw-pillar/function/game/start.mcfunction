@@ -1,8 +1,8 @@
 advancement revoke @s only yw-pillar:lobby/play_button
 
-function yw-pillar:utils/player/count
-execute if score #Game PlayerCount.Ready matches ..1 run return run tellraw @a ["",{text:"[Error]",color:"red",bold:true},{color:"gold",text:"准备人数小于"},{color:"aqua",bold:true,text:"2"},{color:"gold",text:"，无法开始游戏"}]
+execute if function yw-pillar:utils/game/check run return fail
 
+playsound ui.button.click master @s
 scoreboard players set #Game GameStatus 1
 scoreboard players add #Game GameID 1
 scoreboard players operation @a GameID = #Game GameID
@@ -20,7 +20,7 @@ team join InGame @a[tag=ready]
 
 clear @a
 effect clear @a
-effect give @a instant_health 1 28 true
+effect give @a instant_health 1 5 true
 
 
 execute store result score #Timer LootTimer run data get storage yw-pillar:settings time.loot_time

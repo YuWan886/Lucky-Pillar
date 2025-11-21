@@ -32,7 +32,7 @@
             "end": 101,
             "step": 1,
             "initial": 5,
-            "label_format": "%1$s：%2$s秒"
+            "label_format": "%1$s：%2$ss"
         },
         {
             "key": "event_time",
@@ -44,7 +44,7 @@
             "end": 101,
             "step": 1,
             "initial": 60,
-            "label_format": "%1$s：%2$s秒"
+            "label_format": "%1$s：%2$ss"
         },
         {
             "key": "border_time",
@@ -56,7 +56,7 @@
             "end": 101,
             "step": 1,
             "initial": 45,
-            "label_format": "%1$s：%2$s秒"
+            "label_format": "%1$s：%2$ss"
         },
         {
             "key": "begin_time",
@@ -68,7 +68,7 @@
             "end": 101,
             "step": 1,
             "initial": 5,
-            "label_format": "%1$s：%2$s秒"
+            "label_format": "%1$s：%2$ss"
         }
     ],
     "actions": [

@@ -51,7 +51,7 @@ function ./game/event/9_lightning:
 function ./game/event/10_hello_world:
      event_template("你好,世界","green","Hello World!")
      time set day
-     execute as @a[tag=ingame,tag=!out] run effect give @s instant_health 1 28 true
+     execute as @a[tag=ingame,tag=!out] run effect give @s instant_health 1 5 true
 function ./game/event/11_undye:
      event_template("「不死」","gold","+1 life")
      execute as @a[tag=ingame,tag=!out] run give @s totem_of_undying 1

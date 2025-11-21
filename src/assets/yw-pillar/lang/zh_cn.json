@@ -168,5 +168,6 @@
     "yw-pillar.function.utils.player.statistic.send_chat.2.7": "                     死亡数：",
     "yw-pillar.function.utils.player.statistic.send_chat.2.8": "=——------——--——----——--————=",
     "yw-pillar.function.utils.rule.fox_give.1": "的狐狐",
-    "yw-pillar.function.utils.rule.fox_give.2": "右键召唤狐狐"
+    "yw-pillar.function.utils.rule.fox_give.2": "右键召唤狐狐",
+    "yw-pillar.sound.fail_start":"开始失败"
 }

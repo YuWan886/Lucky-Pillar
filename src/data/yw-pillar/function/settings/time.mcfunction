@@ -14,5 +14,5 @@ $data modify storage yw-pillar:settings time set value \
 }
 
 function yw-pillar:game/sidebar/lobby
-
+playsound ui.cartography_table.take_result master @s
 

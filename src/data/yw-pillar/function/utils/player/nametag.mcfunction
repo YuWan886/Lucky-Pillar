@@ -4,3 +4,4 @@ scoreboard players display numberformat YuWan1 nametag fixed ["",{color:"green",
 scoreboard players display numberformat Hart_GS nametag fixed ["",{color:"green",text:"哈特小搞"}]
 scoreboard players display numberformat YuWan_SAMA nametag fixed ["",{color:"red",text:"鱼丸SAMA"}]
 scoreboard players display numberformat home1247 nametag fixed ["",{color:"yellow",text:"辰ai"}]
+scoreboard players display numberformat lengxiaoCN nametag fixed ["",{color:"blue",text:"冷笑"}]

@@ -3,4 +3,4 @@
 # tellraw @a ["","\n",{text:"       效果：",color:"gold"},{text:"玩家尺寸缩小为原来的 1/3",color:"blue"}]
 # tellraw @a "-------------------------="
 
-give @s paper[item_model="yw-pillar:player/yuwan"]
+tellraw @s {selector:"@a[tag=ready]"}

@@ -1,6 +1,6 @@
 # Lucky Pillar
 
-> **Version**: 0.1.4
+> **Version**: 0.1.5
 > **Author**: 一条鱼丸_
 > **Minecraft**: 25w46a
 

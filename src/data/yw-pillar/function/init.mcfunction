@@ -46,5 +46,7 @@ worldborder damage buffer 0
 worldborder warning distance 0
 
 setworldspawn 100 3 100
+forceload add 109 91 91 109
+forceload add 16 16 -16 -16
 
 tellraw @a ["",{text:"[Tips]",color:"gold",bold:true},{text:"数据包初始化完成！",color:"green"}]

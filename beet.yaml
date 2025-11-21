@@ -3,7 +3,7 @@ name: "幸运之柱"
 description: ""
 author: "一条鱼丸_"
 
-version: "0.1.4"
+version: "0.1.5"
 minecraft: "1.21"
 
 directory: "."
@@ -39,7 +39,7 @@ pipeline:
     
     
 meta:
-    mc_version: "25w46a"
+    mc_version: "1.21.11"
     bolt:
       entrypoint: 
         - '*'

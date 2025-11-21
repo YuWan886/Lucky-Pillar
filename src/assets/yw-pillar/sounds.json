@@ -1,0 +1,11 @@
+{
+    "fail_start":{
+        "sounds": [
+            {
+                "name": "yw-pillar:fail_start",
+                "volume": 0.6
+            }
+        ],
+        "subtitle": "yw-pillar.sound.fail_start"
+    }
+}

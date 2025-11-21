@@ -33,3 +33,4 @@ tellraw @a "\n=-----------------------------="
 
 scoreboard players set @s TriggerSetting.Rule 0
 function yw-pillar:game/sidebar/lobby
+playsound ui.cartography_table.take_result master @s

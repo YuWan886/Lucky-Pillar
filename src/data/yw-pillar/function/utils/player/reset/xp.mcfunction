@@ -1,2 +1,2 @@
-xp set @a 0 levels
-xp set @a 0 points
+xp set @s 0 levels
+xp set @s 0 points
