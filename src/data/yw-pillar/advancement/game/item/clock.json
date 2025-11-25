@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "use_clock":{
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "items": "clock",
+                    "components": {
+                        "custom_data": {
+                            "item":"clock"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "yw-pillar:utils/game/item/clock/use"
+    }
+}

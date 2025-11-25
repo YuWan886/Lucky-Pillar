@@ -53,7 +53,8 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: v${{ steps.get_version.outputs.RELEASE_VERSION }}
-          name: Release v${{ steps.get_version.outputs.RELEASE_VERSION }}
+          name: v${{ steps.get_version.outputs.RELEASE_VERSION }}
+          generate_release_notes: true
           body: Automated release based on beet.yaml version and timestamp.
           files: |
             yw-pillar-datapack-${{ steps.get_version.outputs.RELEASE_VERSION }}.zip

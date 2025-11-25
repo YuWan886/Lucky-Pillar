@@ -1,3 +1,5 @@
+[English](./README_EN.md) | [简体中文](./README.md)
+
 # Lucky Pillar
 
 > **Version**: 0.1.5

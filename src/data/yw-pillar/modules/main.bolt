@@ -86,7 +86,7 @@ function ./game/rule/4_punch:
      rule_template("一击必杀！","red",-41089492,"玩家攻击伤害变成 §l40")
      execute as @a[tag=ingame,tag=!out] run attribute @s attack_damage base set 40
 
-# 柱
+#柱
 from ./lib/pillar import pillar_tempalte
 
 pillar_tempalte("wool","bedrock")

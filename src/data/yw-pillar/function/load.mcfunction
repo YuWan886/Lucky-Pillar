@@ -45,6 +45,7 @@ scoreboard objectives setdisplay list HP
 # 使用
     scoreboard objectives add Used.fox_spawn_egg used:fox_spawn_egg
     scoreboard objectives add Used.ender_dragon_spawn_egg used:ender_dragon_spawn_egg
+    scoreboard objectives add Used.wolf_spawn_egg used:wolf_spawn_egg
 # 统计
     scoreboard objectives add PlayTime.Hour dummy
     scoreboard objectives add PlayTime.Min dummy
@@ -58,6 +59,8 @@ scoreboard objectives setdisplay list HP
     scoreboard objectives setdisplay below_name nametag
     scoreboard objectives modify nametag numberformat blank
     scoreboard objectives modify nametag displayname ''
+# 道具
+    scoreboard objectives add Item.clock_using_time dummy
 
 ## Utils
 scoreboard objectives add Pos.X dummy

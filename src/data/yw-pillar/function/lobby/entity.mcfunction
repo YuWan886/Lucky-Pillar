@@ -21,3 +21,6 @@ summon item_display 108 2 102 {item:{id:"white_dye",components:{item_model:"yw-p
 
 kill @e[tag=lobby.hahaha]
 summon item_frame 100 2 92 {Item:{id:"stick",components:{custom_model_data:{strings:["hahaha"]}}},Facing:3b,Fixed:true,Invisible:true,Tags:["lobby.hahaha"]}
+
+execute as @e[tag=aj.player_yuwan.root] run function animated_java:player_yuwan/remove/this
+execute positioned 100 1 108 rotated -180 0 run function animated_java:player_yuwan/summon {args:{}}

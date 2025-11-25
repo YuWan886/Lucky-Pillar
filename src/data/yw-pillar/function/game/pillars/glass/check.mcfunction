@@ -1,0 +1,2 @@
+execute as @a[tag=ingame,tag=!out] at @s if predicate {condition:"location_check",predicate:{position:{y:{max:-10}}}} run kill @s
+execute as @a[tag=ingame,tag=!out] at @s if predicate {condition:"location_check",predicate:{position:{y:{min:120}}}} run tp @s ~ 100 ~

@@ -7,5 +7,22 @@
             }
         ],
         "subtitle": "yw-pillar.sound.fail_start"
+    },
+    "good":{
+        "sounds": [
+            {
+                "name": "yw-pillar:good"
+            }
+        ],
+        "subtitle": "yw-pillar.sound.good"
+    },
+    "bad":{
+        "sounds": [
+            {
+                "name": "yw-pillar:bad",
+                "volume": 0.6
+            }
+        ],
+        "subtitle": "yw-pillar.sound.bad"
     }
 }

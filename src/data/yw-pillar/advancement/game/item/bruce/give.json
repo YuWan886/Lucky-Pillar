@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "bruce": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "wolf_spawn_egg",
+                        "components": {
+                            "custom_data": {
+                                "item":"bruce"
+                            }
+                        },
+                        "count": {
+                            "min": 1,
+                            "max": 64
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "yw-pillar:utils/game/item/bruce/give"
+    }
+}

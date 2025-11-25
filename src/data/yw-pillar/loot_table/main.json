@@ -6,12 +6,17 @@
                 {
                     "type": "loot_table",
                     "value": "yw-pillar:all_item",
-                    "weight": 99
+                    "weight": 97
                 },
                 {
                     "type": "loot_table",
                     "value": "yw-pillar:potion",
                     "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "value": "yw-pillar:special/all",
+                    "weight": 2
                 }
             ]
         }

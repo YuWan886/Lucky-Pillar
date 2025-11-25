@@ -11,9 +11,7 @@ scoreboard players set #Game BorderWidth 1145
 scoreboard players set #Game CollapseTimes 0
 scoreboard players set #Game EventID 0
 scoreboard players add @a[tag=ingame] CompletedCount 1
-scoreboard players set @a Number 0
 scoreboard players reset * var
-
 scoreboard objectives remove KilledCheck
 
 tag @a remove out

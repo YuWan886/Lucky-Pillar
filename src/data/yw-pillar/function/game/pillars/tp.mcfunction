@@ -4,4 +4,6 @@ execute if score #Game MapNumber matches 2 run function yw-pillar:game/pillars/s
 execute if score #Game MapNumber matches 3 in yw-pillar:the_nether_2 run tp @a 0 100 0
 execute if score #Game MapNumber matches 3 run schedule function yw-pillar:utils/pillar/change_dimension 5t
 
+execute if score #Game MapNumber matches 4 run function yw-pillar:game/pillars/glass/tp with storage yw-pillar:settings game
+
 execute as @a[tag=spectator] run tp @s @r[tag=ingame]

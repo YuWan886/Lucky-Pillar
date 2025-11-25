@@ -169,5 +169,7 @@
     "yw-pillar.function.utils.player.statistic.send_chat.2.8": "=——------——--——----——--————=",
     "yw-pillar.function.utils.rule.fox_give.1": "'s Foxy",
     "yw-pillar.function.utils.rule.fox_give.2": "Right-click to summon fox",
-    "yw-pillar.sound.fail_start":"Fail to start"
+    "yw-pillar.sound.fail_start": "Fail to start",
+    "yw-pillar.sound.good": "",
+    "yw-pillar.sound.bad": ""
 }

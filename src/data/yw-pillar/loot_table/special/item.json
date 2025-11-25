@@ -1,0 +1,165 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "stick",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": {
+                                    "text": "击退棒",
+                                    "color": "gold",
+                                    "bold": true,
+                                    "italic": false
+                                },
+                                "enchantments": {
+                                    "knockback": 3
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "apple",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": {
+                                    "text": "女巫的红苹果",
+                                    "color": "gold",
+                                    "bold": true,
+                                    "italic": false
+                                },
+                                "enchantment_glint_override": true,
+                                "custom_data": {
+                                    "item": "witch_apple"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "wolf_spawn_egg",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": {
+                                    "text": "布鲁斯",
+                                    "color": "gold",
+                                    "bold": true,
+                                    "italic": false
+                                },
+                                "custom_data": {
+                                    "item": "bruce"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "netherite_pickaxe",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": {
+                                    "text": "我滴神镐",
+                                    "color": "gold",
+                                    "bold": true,
+                                    "italic": false
+                                },
+                                "enchantments": {
+                                    "unbreaking": 3,
+                                    "efficiency": 5,
+                                    "fortune": 3,
+                                    "mending": 1
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "end_rod",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": {
+                                    "text": "格调",
+                                    "color": "gold",
+                                    "bold": true,
+                                    "italic": false
+                                },
+                                "lore": [
+                                    {
+                                        "text": "?",
+                                        "color": "gray"
+                                    }
+                                ],
+                                "equippable": {
+                                    "slot": "head"
+                                },
+                                "item_model": "yw-pillar:gediao",
+                                "attribute_modifiers": [
+                                    {
+                                        "id": "yw-pillar:gediao",
+                                        "type": "entity_interaction_range",
+                                        "amount": 1,
+                                        "operation": "add_value",
+                                        "slot": "head",
+                                        "display": {
+                                            "type": "override",
+                                            "value": {
+                                                "text": "+1 m",
+                                                "color": "dark_green"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "clock",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": {
+                                    "text": "时间",
+                                    "color": "gold",
+                                    "bold": true,
+                                    "italic": false
+                                },
+                                "lore": [
+                                    {
+                                        "text": "「我掌握了逆转时间的公式」",
+                                        "color": "gray"
+                                    }
+                                ],
+                                "custom_data": {
+                                    "item": "clock"
+                                },
+                                "consumable": {
+                                    "consume_seconds": 2400
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

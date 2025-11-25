@@ -1,0 +1,12 @@
+{
+	"format_version": "1.21.6",
+	"credit": "Made with Blockbench",
+	"parent": "block/end_rod",
+	"display": {
+		"head": {
+			"rotation": [-49.5, 0, 0],
+			"translation": [0, 6.25, -2.75],
+			"scale": [1.2, 1.2, 1.2]
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "witch_apple": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "apple",
+                    "components": {
+                        "custom_data": {
+                            "item": "witch_apple"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "yw-pillar:utils/game/item/witch_apple/use"
+    }
+}
