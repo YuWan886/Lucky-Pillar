@@ -16,13 +16,13 @@ data modify storage yw-pillar:settings game set value \
     rule_name:"",\
     rule_id:0,\
     version:"{ctx.project_version}",\
-    mc_version:"{ctx.meta.get("mc_version")}",\
+    mc_version:"{ctx.minecraft_version}",\
     release_time:"{time.strftime("%Y.%m.%d")}"\
 }}
 data modify storage yw-pillar:system info set value \
 {{\
     version:"{ctx.project_version}",\
-    mc_version:"{ctx.meta.get("mc_version")}",\
+    mc_version:"{ctx.minecraft_version}",\
     release_time:"{time.strftime("%Y.%m.%d")}"\
 }}
     """

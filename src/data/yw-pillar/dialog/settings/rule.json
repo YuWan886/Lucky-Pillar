@@ -24,7 +24,7 @@
     ],
     "columns": 3,
     "actions": [
-                {
+        {
             "label": {
                 "text": "关闭特殊规则",
                 "color": "red",
@@ -93,6 +93,21 @@
             "action": {
                 "type": "run_command",
                 "command": "trigger TriggerSetting.Rule set 4"
+            }
+        },
+        {
+            "label": {
+                "text": "背包交换",
+                "color": "green",
+                "shadow_color": -11832829,
+                "bold": true
+            },
+            "tooltip": {
+                "text": "随机事件固定为 §l背包交换"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger TriggerSetting.Rule set 5"
             }
         }
     ],

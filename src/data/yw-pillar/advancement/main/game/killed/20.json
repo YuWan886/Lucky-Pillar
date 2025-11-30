@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "killed_20": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "yw-pillar:main/game/killed/1",
+    "display": {
+        "title": {
+            "text": "小试牛刀",
+            "color": "green"
+        },
+        "description": {
+            "text": "击杀 20 名玩家",
+            "color": "gray",
+            "italic": true
+        },
+        "icon": {
+            "id": "stone_sword"
+        },
+        "frame": "task"
+    }
+}

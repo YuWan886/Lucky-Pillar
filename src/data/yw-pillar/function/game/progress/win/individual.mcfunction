@@ -5,5 +5,6 @@ title @a subtitle ["",{text:"MVP ",color:"gold",bold:true},{selector:"@s",color:
 execute as @a at @s run playsound minecraft:entity.ender_dragon.ambient master @s
 effect give @s resistance 5 4 true
 
+function yw-pillar:utils/player/win_count
 scoreboard players set #Game GameStatus 0
 schedule function yw-pillar:game/end 3s

@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "win_1": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "yw-pillar:main/game/win/50",
+    "display": {
+        "title": {
+            "text": "百战百胜",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "赢 100 局游戏",
+            "color": "gray",
+            "italic": true
+        },
+        "icon": {
+            "id": "gold_ingot"
+        },
+        "frame": "challenge"
+    }
+}

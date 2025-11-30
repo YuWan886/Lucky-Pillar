@@ -28,7 +28,7 @@ spawnpoint @a 100 3 100
 function yw-pillar:game/pillars/reset_1
 function yw-pillar:lobby/entity
 execute as @a run function yw-pillar:utils/player/reset/all
-schedule function yw-pillar:game/sidebar/lobby 5t
+function yw-pillar:game/sidebar/lobby
 
 data modify storage yw-pillar:settings game.event_name set value ''
 

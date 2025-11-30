@@ -13,6 +13,9 @@ tellraw @a ["","\n\n\n\n=-----------------------------=\n",{text:"[Tips]",color:
 # 一击必杀！
     execute if score @s TriggerSetting.Rule matches 4 run tellraw @a ["",{text:"当前规则：",color:"gold"},{nbt:"game.rule_name",storage:"yw-pillar:settings",color:"red"},"->",{"text":"一击必杀！",color:"red",shadow_color:-41089492,bold:true}]
     execute if score @s TriggerSetting.Rule matches 4 run tellraw @a ["",{text:"效果：",color:"gold"},{text:"玩家攻击伤害变成 §l40",color:"blue"}]
+# 背包交换
+    execute if score @s TriggerSetting.Rule matches 5 run tellraw @a ["",{text:"当前规则：",color:"gold"},{nbt:"game.rule_name",storage:"yw-pillar:settings",color:"red"},"->",{"text":"背包交换",color:"green",shadow_color:-11832829,bold:true}]
+    execute if score @s TriggerSetting.Rule matches 5 run tellraw @a ["",{text:"效果：",color:"gold"},{text:"随机事件固定为 §l背包交换",color:"blue"}]
 tellraw @a "\n=-----------------------------="
 
 # 关闭特殊规则
@@ -30,6 +33,9 @@ tellraw @a "\n=-----------------------------="
 # 一击必杀！
     execute if score @s TriggerSetting.Rule matches 4 run data modify storage yw-pillar:settings game merge value {rule_name:"一击必杀！",rule_id:4}
     execute if score @s TriggerSetting.Rule matches 4 run scoreboard players set #Game RuleID 4
+# 背包交换
+    execute if score @s TriggerSetting.Rule matches 5 run data modify storage yw-pillar:settings game merge value {rule_name:"背包交换",rule_id:5}
+    execute if score @s TriggerSetting.Rule matches 5 run scoreboard players set #Game RuleID 5
 
 scoreboard players set @s TriggerSetting.Rule 0
 function yw-pillar:game/sidebar/lobby

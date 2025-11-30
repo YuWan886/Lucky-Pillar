@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "killed_200": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "yw-pillar:main/game/killed/100",
+    "display": {
+        "title": {
+            "text": "恐怖杀人魔",
+            "color": "red"
+        },
+        "description": {
+            "text": "击杀 200 名玩家",
+            "color": "gray",
+            "italic": true
+        },
+        "icon": {
+            "id": "diamond_sword"
+        },
+        "frame": "challenge"
+    }
+}

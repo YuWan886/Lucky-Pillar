@@ -72,6 +72,7 @@ scoreboard objectives add Rota.Y dummy
 ## math
 scoreboard objectives add math dummy
 scoreboard players set $100 math 100
+scoreboard players set $20 math 20
 
 execute unless score #Game Init matches 1 run function yw-pillar:init
 

@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "win_1": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "yw-pillar:main/root",
+    "display": {
+        "title": {
+            "text": "首战告捷",
+            "color": "white"
+        },
+        "description": {
+            "text": "赢 1 局游戏",
+            "color": "gray",
+            "italic": true
+        },
+        "icon": {
+            "id": "coal"
+        },
+        "frame": "task"
+    }
+}

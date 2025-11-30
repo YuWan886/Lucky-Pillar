@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "killed_1": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "yw-pillar:main/root",
+    "display": {
+        "title": {
+            "text": "初露锋芒",
+            "color": "white"
+        },
+        "description": {
+            "text": "击杀 1 名玩家",
+            "color": "gray",
+            "italic": true
+        },
+        "icon": {
+            "id": "wooden_sword"
+        },
+        "frame": "task"
+    }
+}

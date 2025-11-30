@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "killed_50": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "yw-pillar:main/game/killed/20",
+    "display": {
+        "title": {
+            "text": "锋芒毕露",
+            "color": "blue"
+        },
+        "description": {
+            "text": "击杀 50 名玩家",
+            "color": "gray",
+            "italic": true
+        },
+        "icon": {
+            "id": "iron_sword"
+        },
+        "frame": "task"
+    }
+}

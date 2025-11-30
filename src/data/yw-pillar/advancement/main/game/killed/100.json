@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "killed_100": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "yw-pillar:main/game/killed/50",
+    "display": {
+        "title": {
+            "text": "嗜血成性",
+            "color": "dark_purple"
+        },
+        "description": {
+            "text": "击杀 100 名玩家",
+            "color": "gray",
+            "italic": true
+        },
+        "icon": {
+            "id": "golden_sword"
+        },
+        "frame": "challenge"
+    }
+}

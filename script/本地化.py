@@ -44,17 +44,6 @@ async def traverse_and_replace_texts(
 
                     # 写入标准JSON编码，并处理私有使用区域字符
                     json_str = json.dumps(new_data, ensure_ascii=False, indent=4)
-                    result = []
-                    i = 0
-                    while i < len(json_str):
-                        char = json_str[i]
-                        if should_escape_char(char):
-                            result.append(f"\\u{ord(char):04x}")
-                        else:
-                            result.append(char)
-                        i += 1
-                    json_str = ''.join(result)
-
                     with open(file_path, "w", encoding="utf-8") as f:
                         f.write(json_str)
 
@@ -70,18 +59,7 @@ async def traverse_and_replace_texts(
     output_file_path = os.path.join(script_dir, output_file_name)
 
     json_str = json.dumps(translations, ensure_ascii=False, indent=4)
-    result = []
-    i = 0
-    while i < len(json_str):
-        char = json_str[i]
-        if should_escape_char(char):
-            result.append(f"\\u{ord(char):04x}")
-        else:
-            result.append(char)
-        i += 1
-    json_str = ''.join(result)
-
-    with open(output_file_path, "w", encoding="utf-8") as out_file:
+    with open(output_file_path, "w", encoding="utf-8", errors='replace') as out_file:
         out_file.write(json_str)
 
     print(f"JSON翻译结果已保存至: {output_file_path}")
@@ -410,18 +388,7 @@ async def localize_mcfunction(directory, translations, output_file_name="zh_cn.j
 
     if translations:
         json_str = json.dumps(translations, ensure_ascii=False, indent=4)
-        result = []
-        i = 0
-        while i < len(json_str):
-            char = json_str[i]
-            if should_escape_char(char):
-                result.append(f"\\u{ord(char):04x}")
-            else:
-                result.append(char)
-            i += 1
-        json_str = ''.join(result)
-
-        with open(output_file_path, "w", encoding="utf-8") as out_file:
+        with open(output_file_path, "w", encoding="utf-8", errors='replace') as out_file:
             out_file.write(json_str)
 
         print(f"mcfunction翻译结果已保存至: {output_file_path}")

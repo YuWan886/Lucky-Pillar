@@ -46,8 +46,11 @@ jobs:
 
       - name: Archive build artifacts
         run: |
-          zip -r yw-pillar-datapack-${{ steps.get_version.outputs.RELEASE_VERSION }}.zip build/yw-pillar-datapack
-          zip -r yw-pillar-resourcepack-${{ steps.get_version.outputs.RELEASE_VERSION }}.zip build/yw-pillar-resourcepack
+          # For datapack - pack directly from build directory to get data/ and pack.mcmeta in zip root
+          cd build/yw-pillar-datapack && zip -r ../../yw-pillar-datapack-${{ steps.get_version.outputs.RELEASE_VERSION }}.zip . && cd ../../
+
+          # For resourcepack - pack directly from build directory to get assets/ and pack.mcmeta in zip root
+          cd build/yw-pillar-resourcepack && zip -r ../../yw-pillar-resourcepack-${{ steps.get_version.outputs.RELEASE_VERSION }}.zip . && cd ../../
 
       - name: Create Release
         uses: softprops/action-gh-release@v2

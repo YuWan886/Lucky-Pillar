@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "win_1": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "yw-pillar:main/game/win/100",
+    "display": {
+        "title": {
+            "text": "一代战神",
+            "color": "gold"
+        },
+        "description": {
+            "text": "赢 200 局游戏",
+            "color": "gray",
+            "italic": true
+        },
+        "icon": {
+            "id": "diamond"
+        },
+        "frame": "challenge"
+    }
+}

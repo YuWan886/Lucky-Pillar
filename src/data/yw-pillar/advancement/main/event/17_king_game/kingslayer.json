@@ -1,0 +1,37 @@
+{
+    "criteria": {
+        "kill_king": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "player",
+                    "equipment": {
+                        "head": {
+                            "items": "diamond_helmet",
+                            "components": {
+                                "item_model": "yw-pillar:event/crown"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "parent": "yw-pillar:main/root",
+    "display": {
+        "title": {
+            "text": "弑君者",
+            "color": "red",
+            "shadow_color": -3733496
+        },
+        "description": {
+            "text": "是你的吗？你就戴",
+            "color": "gray",
+            "italic": true
+        },
+        "icon": {
+            "id": "iron_sword"
+        },
+        "frame": "challenge"
+    }
+}

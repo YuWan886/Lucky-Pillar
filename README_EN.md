@@ -4,7 +4,7 @@
 
 > **Version**: 0.1.5
 > **Author**: 一条鱼丸_
-> **Minecraft**: 25w46a
+> **Minecraft**: 1.21.11
 
 ## Game Introduction
 

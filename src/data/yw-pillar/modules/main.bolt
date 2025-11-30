@@ -69,6 +69,14 @@ function ./game/event/14_creeper:
 function ./game/event/15_touch:
      event_template("摸摸","#e315c8","OvO")
      execute as @a[tag=ingame,tag=!out] run attribute @s entity_interaction_range base set 10
+function ./game/event/16_inv_exchange:
+     event_template("背包交换","green","这何尝不是一种NTR")
+     function yw-pillar:utils/event/inv_exchange/run
+function ./game/event/17_king_game:
+     event_template("国王游戏","gold","成王败寇")
+     execute as @r[tag=ingame,tag=!out] run tag @s add event.17_king_game
+     effect give @a[tag=event.17_king_game] glowing infinite 0 true
+     item replace entity @a[tag=event.17_king_game] armor.head with stick[custom_name={text:"伪·王冠",color:"gray",bold:true,italic:false},lore=[{text:"『欲戴王冠 必承其重』",color:"red",underlined:true}],equippable={slot:"head"},enchantments={binding_curse:1},tooltip_display={hidden_components:["enchantments"]},item_model="yw-pillar:event/crown",attribute_modifiers=[{id:"yw-pillar:fake_crown_1",type:"armor",amount:2,operation:"add_value",slot:"head"},{id:"yw-pillar:fake_crown_2",type:"armor_toughness",amount:2,operation:"add_value",slot:"head"},{"id":"yw-pillar:fake_crown_3",type:"attack_damage",amount:3,operation:"add_value",slot:"head"},{"id":"yw-pillar:fake_crown_4",type:"max_health",amount:5,operation:"add_value",slot:"head"}]]
 
 # 规则
 from ./lib/rule import rule_template
@@ -85,6 +93,8 @@ function ./game/rule/3_my_partner/tip:
 function ./game/rule/4_punch:
      rule_template("一击必杀！","red",-41089492,"玩家攻击伤害变成 §l40")
      execute as @a[tag=ingame,tag=!out] run attribute @s attack_damage base set 40
+function ./game/rule/5_inv_exchange:
+     rule_template("背包交换","green",-11832829,"随机事件固定为 §l背包交换")
 
 #柱
 from ./lib/pillar import pillar_tempalte

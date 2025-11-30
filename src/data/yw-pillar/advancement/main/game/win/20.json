@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "win_1": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "yw-pillar:main/game/win/1",
+    "display": {
+        "title": {
+            "text": "渐入佳境",
+            "color": "green"
+        },
+        "description": {
+            "text": "赢 20 局游戏",
+            "color": "gray",
+            "italic": true
+        },
+        "icon": {
+            "id": "copper_ingot"
+        },
+        "frame": "task"
+    }
+}

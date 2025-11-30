@@ -1,7 +1,11 @@
+function yw-pillar:game/event/settle
 function yw-pillar:game/event/kill_mob
 function yw-pillar:utils/player/reset/event
 
-execute store result score #Game EventID run random value 1..20
+scoreboard players set #Timer EventDura.Sec 0
+scoreboard players set #Timer EventDura.Tick 0
+execute store result score #Game EventID run random value 1..25
+function yw-pillar:game/rule/modify_event
 
 execute if score #Game EventID matches 1 run function yw-pillar:game/event/1_night_fall
 execute if score #Game EventID matches 2 run function yw-pillar:game/event/2_falling_anvil
@@ -18,6 +22,9 @@ execute if score #Game EventID matches 12 run function yw-pillar:game/event/12_b
 execute if score #Game EventID matches 13 run function yw-pillar:game/event/13_punch
 execute if score #Game EventID matches 14 run function yw-pillar:game/event/14_creeper
 execute if score #Game EventID matches 15 run function yw-pillar:game/event/15_touch
+execute if score #Game EventID matches 16 run function yw-pillar:game/event/16_inv_exchange
+execute if score #Game EventID matches 17 run function yw-pillar:game/event/17_king_game
 
+execute if score #Game EventID matches 18.. run tellraw @a ["",{text:"[Tips]",color:"gold",bold:true},{text:"无事发生...",color:"green"}]
 execute store result score #Timer EventTimer run data get storage yw-pillar:settings time.event_time
 

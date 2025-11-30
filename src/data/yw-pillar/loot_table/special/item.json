@@ -158,6 +158,43 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "item",
+                    "name": "golden_axe",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": {
+                                    "text": "喵人斧",
+                                    "color": "gold",
+                                    "bold": true,
+                                    "italic": false
+                                },
+                                "lore": [
+                                    {
+                                        "text": "哈~",
+                                        "color": "gray"
+                                    }
+                                ],
+                                "damage": 31,
+                                "attribute_modifiers": [
+                                    {
+                                        "id": "yw-pillar:meow_axe",
+                                        "type": "attack_damage",
+                                        "amount": 99,
+                                        "operation": "add_value",
+                                        "slot": "mainhand",
+                                        "display": {
+                                            "type": "hidden"
+                                        }
+                                    }
+                                ],
+                                "item_model": "yw-pillar:special/meow_axe"
+                            }
+                        }
+                    ]
                 }
             ]
         }

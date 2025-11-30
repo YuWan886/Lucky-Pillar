@@ -4,7 +4,7 @@ description: ""
 author: "一条鱼丸_"
 
 version: "0.1.5"
-minecraft: "1.21"
+minecraft: "1.21.11"
 
 directory: "."
 output: "build"
@@ -16,30 +16,26 @@ require:
 data_pack:
     name: "yw-pillar-datapack" 
     load: ["src"]    
-    pack_format: 81
-    supported_formats: [81.0,1000.0] 
-    min_format: 81.0
-    max_format: 1000.0
+    min_format: [81,0]
+    max_format: [1000,0]
 
 resource_pack:
     name: yw-pillar-resourcepack 
     load: ["src"]      
-    pack_format: 61
-    supported_formats: [61.0,1000.0] 
-    min_format: 61.0
-    max_format: 1000.0
+    min_format: [65,0]
+    max_format: [1000,0]
 
 pipeline:
     - mecha
     # - src.plugin.archive
     # - script.try
+    - script.event.inv_exchange
     - script.insert
     - script.custom_function_headers
     - stewbeet.plugins.auto.headers
     
     
 meta:
-    mc_version: "1.21.11"
     bolt:
       entrypoint: 
         - '*'

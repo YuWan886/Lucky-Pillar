@@ -1,0 +1,23 @@
+{
+    "criteria": {
+        "win_1": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "yw-pillar:main/game/win/20",
+    "display": {
+        "title": {
+            "text": "百战不殆",
+            "color": "blue"
+        },
+        "description": {
+            "text": "赢 50 局游戏",
+            "color": "gray",
+            "italic": true
+        },
+        "icon": {
+            "id": "iron_ingot"
+        },
+        "frame": "task"
+    }
+}

@@ -1,0 +1,17 @@
+import nbtlib
+
+append function yw-pillar:utils/player/store_inv:
+    # 传入 as @s at @s
+    summon chest_minecart ~ ~ ~ {Tags:["store_inv"]}
+    summon chest_minecart ~ ~ ~ {Tags:["store_hotbar"]}
+    scoreboard players operation @e[type=chest_minecart,distance=..1,limit=1,tag=store_inv] Number = @s Number
+    scoreboard players operation @e[type=chest_minecart,distance=..1,limit=1,tag=store_hotbar] Number = @s Number
+    for i in range(27):
+        item replace entity @e[type=chest_minecart,distance=..1,limit=1,tag=store_inv] f"container.{i}" from entity @s f"inventory.{i}"
+    for i in range(9):
+        item replace entity @e[type=chest_minecart,distance=..1,limit=1,tag=store_hotbar] f"container.{i}" from entity @s f"hotbar.{i}"
+    item replace entity @e[type=chest_minecart,distance=..1,limit=1,tag=store_hotbar] container.9 from entity @s armor.head
+    item replace entity @e[type=chest_minecart,distance=..1,limit=1,tag=store_hotbar] container.10 from entity @s armor.chest
+    item replace entity @e[type=chest_minecart,distance=..1,limit=1,tag=store_hotbar] container.11 from entity @s armor.legs
+    item replace entity @e[type=chest_minecart,distance=..1,limit=1,tag=store_hotbar] container.12 from entity @s armor.feet
+    item replace entity @e[type=chest_minecart,distance=..1,limit=1,tag=store_hotbar] container.13 from entity @s weapon.offhand

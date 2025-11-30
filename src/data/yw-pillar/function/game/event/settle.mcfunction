@@ -1,0 +1,1 @@
+execute if score #Game EventID matches 17 if entity @a[tag=event.17_king_game,tag=!out] run function yw-pillar:game/event/17_king_game/run

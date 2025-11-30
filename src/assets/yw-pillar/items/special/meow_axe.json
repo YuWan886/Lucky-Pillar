@@ -1,0 +1,7 @@
+{
+    "model": {
+        "type": "model",
+        "model": "yw-pillar:item/special/meow_axe"
+    },
+    "oversized_in_gui": true
+}

@@ -1,0 +1,27 @@
+{
+    "criteria": {
+        "be_king": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "yw-pillar:main/event/17_king_game/get_crown",
+    "display": {
+        "title": {
+            "text": "加冕为王",
+            "color": "gold",
+            "shadow_color": -8763131
+        },
+        "description": {
+            "text": "披荆斩棘，血铸王冠",
+            "color": "gray",
+            "italic": true
+        },
+        "icon": {
+            "id": "diamond_helmet",
+            "components": {
+                "item_model": "yw-pillar:event/crown"
+            }
+        },
+        "frame": "challenge"
+    }
+}

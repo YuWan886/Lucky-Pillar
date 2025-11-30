@@ -1,0 +1,36 @@
+{
+    "criteria": {
+        "get_crown": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "diamond_helmet",
+                        "components": {
+                            "item_model":"yw-pillar:event/crown"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "parent": "yw-pillar:main/root",
+    "display": {
+        "title": {
+            "text": "欲戴其冠",
+            "color": "gold"
+        },
+        "description": {
+            "text": "谁把王冠放我头上了？",
+            "color": "gray",
+            "italic": true
+        },
+        "icon": {
+            "id": "diamond_helmet",
+            "components": {
+                "item_model":"yw-pillar:event/crown"
+            }
+        },
+        "frame": "task"
+    }
+}
