@@ -4,7 +4,7 @@ function yw-pillar:utils/player/reset/event
 
 scoreboard players set #Timer EventDura.Sec 0
 scoreboard players set #Timer EventDura.Tick 0
-execute store result score #Game EventID run random value 1..25
+execute store result score #Game EventID run random value 1..20
 function yw-pillar:game/rule/modify_event
 
 execute if score #Game EventID matches 1 run function yw-pillar:game/event/1_night_fall
@@ -28,3 +28,5 @@ execute if score #Game EventID matches 17 run function yw-pillar:game/event/17_k
 execute if score #Game EventID matches 18.. run tellraw @a ["",{text:"[Tips]",color:"gold",bold:true},{text:"无事发生...",color:"green"}]
 execute store result score #Timer EventTimer run data get storage yw-pillar:settings time.event_time
 
+execute if score #Game EventID matches 18.. run return fail
+function yw-pillar:game/log/temp/event

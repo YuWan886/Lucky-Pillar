@@ -3,6 +3,8 @@ advancement revoke @s only yw-pillar:lobby/play_button
 execute if function yw-pillar:utils/game/check run return fail
 
 scoreboard players set #Game GameStatus 1
+function yw-pillar:game/log/clear with storage yw-pillar:log temp
+function yw-pillar:game/log/temp/common
 scoreboard players add #Game GameID 1
 scoreboard players operation @a GameID = #Game GameID
 
@@ -13,10 +15,12 @@ scoreboard players operation #Game PlayerCount.Alive = #Game PlayerCount.Total
 scoreboard objectives add KilledCheck playerKillCount
 
 gamemode spectator @a[tag=spectator]
+gamemode adventure @a[tag=ready]
 
 tag @a[tag=ready] add ingame
 team join InGame @a[tag=ready]
 
+dialog clear @a
 clear @a
 effect clear @a
 effect give @a instant_health 1 5 true
@@ -31,6 +35,7 @@ function yw-pillar:utils/player/number/main
 function yw-pillar:game/pillars/tp
 function yw-pillar:game/sidebar/ingame
 function yw-pillar:schedule/countdown
+execute as @a as @s at @s run function yw-pillar:utils/sound/main
 
 title @a times 0 2s 10t
 time set day

@@ -23,8 +23,11 @@ scoreboard objectives add LootTimer dummy
 scoreboard objectives add BorderTimer dummy
 scoreboard objectives add GameTime.Min dummy
 scoreboard objectives add GameTime.Sec dummy
-## Temp
 
+scoreboard objectives add SysTime.Hour dummy
+scoreboard objectives add SysTime.Min dummy
+scoreboard objectives add SysTime.Sec dummy
+## Temp
 
 scoreboard objectives add var dummy
 ## 侧边栏

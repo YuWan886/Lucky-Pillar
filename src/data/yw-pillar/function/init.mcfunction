@@ -40,6 +40,7 @@ gamerule advance_weather false
 gamerule advance_time false
 gamerule immediate_respawn true
 gamerule max_block_modifications 1145145
+gamerule players_sleeping_percentage 50
 
 worldborder damage amount 1
 worldborder damage buffer 0

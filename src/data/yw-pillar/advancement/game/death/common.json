@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "common_entity": {
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "player": {
+                    "nbt": "{Health:0.0f}"
+                },
+                "damage": {
+                    "type": {
+                        "tags": [
+                            {
+                                "expected": false,
+                                "id": "yw-pillar:special"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "yw-pillar:game/log/death/common"
+    }
+}

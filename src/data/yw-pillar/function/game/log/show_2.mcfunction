@@ -1,0 +1,1 @@
+$function yw-pillar:dialog/log/show with storage yw-pillar:log $(gameid)

@@ -3,6 +3,10 @@ from beet import Context, Function
 def beet_default(ctx: Context):
     for n in range(2, 9):
         commands = []
+
+        for k in range(1,n+1):
+            commands.append(f"execute as @r[tag=ingame,tag=!out,scores={{Number=0}}] run scoreboard players set @s Number {k}")
+        
         commands.append(f'execute as @a[tag=ingame,tag=!out] as @s at @s run function yw-pillar:utils/player/store_inv')
 
         for i in range(27):
@@ -48,4 +52,4 @@ def beet_default(ctx: Context):
         commands.append('kill @e[type=chest_minecart,tag=store_hotbar]')
 
         func_path = f'yw-pillar:utils/event/inv_exchange/random_num/{n}'
-        ctx.data.functions[func_path] = Function(ctx.data.functions[func_path].lines + commands)
+        ctx.data.functions[func_path] = Function(commands)

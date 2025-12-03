@@ -1,0 +1,1 @@
+$data remove storage yw-pillar:log $(gameid)

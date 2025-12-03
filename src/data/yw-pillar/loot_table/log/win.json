@@ -1,0 +1,21 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "paper",
+                    "functions": [
+                        {
+                            "function": "set_lore",
+                            "entity": "this",
+                            "lore": [[{"italic":false,"color":"white","text":""},{"color":"dark_purple","nbt":"temp.time","storage":"yw-pillar:log"},{"color":"aqua","text":"[","extra":[{"score":{"name":"#Timer","objective":"GameTime.Min"}},":",{"score":{"name":"#Timer","objective":"GameTime.Sec"}},"]"]},{"text": "[MVP]","color": "gold","bold": true},{"selector":"@s"}]],
+                            "mode": "append"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

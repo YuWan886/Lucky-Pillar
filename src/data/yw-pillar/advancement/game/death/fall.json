@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "fall": {
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "player": {
+                    "nbt": "{Health:0.0f}"
+                },
+                "damage": {
+                    "type": {
+                        "tags": [
+                            {
+                                "expected": true,
+                                "id": "is_fall"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "yw-pillar:game/log/death/fall"
+    }
+}

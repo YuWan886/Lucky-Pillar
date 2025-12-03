@@ -43,7 +43,7 @@ function ./game/event/6_rain/tip:
 function ./game/event/7_sky_waker/tip:
      event_template("踏空","aqua","\u00a7r\u00a74恐怖如斯")
 function ./game/event/8_rotation/tip:
-     event_template("自转","#1de6f0","oiiaioooooiai")
+     event_template("自转","#1de6f0","oiiaioooooiai(30s)")
      scoreboard players set #Timer EventDura.Tick 600
 function ./game/event/9_lightning:
      event_template("雷击","gold","我的避雷针呢？")

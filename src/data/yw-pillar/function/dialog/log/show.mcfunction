@@ -1,0 +1,1 @@
+$dialog show @s {type:"multi_action",title:[ "", { "color": "#bd2fc2",text: "幸" }, { "color": "#cf5f85",text: "运" }, { "color": "#e28e47",text: "之" }, { "color": "#f4bd0a",text: "柱" }, { text: " | 对局记录" } ],body:$(activities),actions:[{label:{text:"关闭"}}]}

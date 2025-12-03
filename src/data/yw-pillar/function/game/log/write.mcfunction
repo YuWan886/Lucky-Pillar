@@ -1,0 +1,1 @@
+$data modify storage yw-pillar:log $(gameid).activities append value $(activity)

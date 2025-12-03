@@ -24,5 +24,23 @@
             }
         ],
         "subtitle": "yw-pillar.sound.bad"
+    },
+    "main":{
+        "sounds": [
+            {
+                "name": "yw-pillar:main",
+                "volume": 0.6
+            }
+        ],
+        "subtitle": "yw-pillar.sound.main"
+    },
+    "sea":{
+        "sounds": [
+            {
+                "name": "yw-pillar:sea",
+                "volume": 0.6
+            }
+        ],
+        "subtitle": "yw-pillar.sound.sea"
     }
 }

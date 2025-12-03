@@ -61,6 +61,4 @@
 | 2 大！大！大！ | 玩家尺寸增大为原来的 3/2 |
 | 3 我的伙伴 | 获得一只狐狸 狐狸存活时,给玩家提供力量和生命回复 |
 | 4 一击必杀 | 玩家攻击伤害变成 §l40 |
-
-
-"file:///F:/MC/PrismLauncher/instances/fuck-bugjump/minecraft/saves/幸运之柱/datapacks/aj.pillar"
+| 5 背包交换 | 随机事件固定为 §背包交换 |
