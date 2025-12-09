@@ -1,0 +1,283 @@
+{
+    "type": "notice",
+    "title": [ "", { "color": "#bd2fc2", "text": "幸" }, { "color": "#cf5f85", "text": "运" }, { "color": "#e28e47", "text": "之" }, { "color": "#f4bd0a", "text": "柱" }, { "text": " | 测试人员" } ],
+    "body": [
+        {
+            "type": "plain_message",
+            "contents": ["",{"color":"gold","text":"感谢以下玩家的游玩！"},"\n",{"color":"gold","text":"没有他们，就不会现在的幸运之柱"}]
+        },
+        {
+            "type": "plain_message",
+            "contents": [
+                {
+                    "player": {
+                        "id": [116693346,901137770,-1219849903,701092108]
+                    },
+                    "extra": ["",{"color":"dark_red","bold":true,"text":"fishing886_"},"  ",{"color":"#c523c1","bold":true,"text":"哈"},{"color":"#c93b83","bold":true,"text":"基"},{"color":"#cc5446","bold":true,"text":"鱼"},{"color":"#d06c08","bold":true,"text":"丸"}]
+                }
+            ]
+        },
+        {
+            "type": "plain_message",
+            "contents": [
+                {
+                    "player": {
+                        "id": [1586471839,1167147209,-1828407083,517939914]
+                    },
+                    "extra": ["",{"color":"gold","bold":true,"text":"YuWan_SAMA"},"  ",{"color":"light_purple","bold":true,"text":"鱼丸sama"}]
+                }
+            ]
+        },
+        {
+            "type": "plain_message",
+            "contents": [
+                {
+                    "player": {
+                        "id": [-2098078678,2078690117,-1885289211,353164467]
+                    },
+                    "extra": ["",{"color":"green","bold":true,"text":"home1247"}]
+                }
+            ]
+        },
+        {
+            "type": "plain_message",
+            "contents": [
+                {
+                    "player": {
+                        "id": [-807409572,1059474706,-1265099609,855077800]
+                    },
+                    "extra": ["",{"color":"green","bold":true,"text":"XuetiaoG"}]
+                }
+            ]
+        },
+        {
+            "type": "plain_message",
+            "contents": [
+                {
+                    "player": {
+                        "id": [1615065328,-1223735920,-1714160734,706619142]
+                    },
+                    "extra": ["",{"color":"green","bold":true,"text":"TheXiaoYu0v0_"}]
+                }
+            ]
+        },
+        {
+            "type": "plain_message",
+            "contents": [
+                {
+                    "player": {
+                        "id": [869304426,-1916449617,-1470625366,-1314332866]
+                    },
+                    "extra": ["",{"color":"green","bold":true,"text":"pingsanyi"}]
+                }
+            ]
+        },
+        {
+            "type": "plain_message",
+            "contents": [
+                {
+                    "player": {
+                        "id": [1150793838,1478247256,-1906350488,-895348562]
+                    },
+                    "extra": ["",{"color":"green","bold":true,"text":"Rachel521"}]
+                }
+            ]
+        },
+        {
+            "type": "plain_message",
+            "contents": [
+                {
+                    "player": {
+                        "id": [215230348,-138918373,-1364012940,1777238342]
+                    },
+                    "extra": ["",{"color":"green","bold":true,"text":"BingHuoX"}]
+                }
+            ]
+        },
+        {
+            "type": "plain_message",
+            "contents": [
+                {
+                    "player": {
+                        "id": [-594712669,991381768,-1299939872,156416539]
+                    },
+                    "extra": ["",{"color":"green","bold":true,"text":"mc_mdba"}]
+                }
+            ]
+        },
+        {
+            "type": "plain_message",
+            "contents": [
+                {
+                    "player": {
+                        "id": [-842361886,362300412,-1454695470,-2088377485]
+                    },
+                    "extra": ["",{"color":"green","bold":true,"text":"bulu__boom"}]
+                }
+            ]
+        },
+        {
+            "type": "plain_message",
+            "contents": [
+                {
+                    "player": {
+                        "id": [-275551119,-1633072214,-1359930327,-1127134535]
+                    },
+                    "extra": ["",{"color":"green","bold":true,"text":"TheTaiZiY"}]
+                }
+            ]
+        },
+        {
+            "type": "plain_message",
+            "contents": [
+                {
+                    "player": {
+                        "id": [1622592387,-1276558838,-1185820810,-2136073567]
+                    },
+                    "extra": ["",{"color":"green","bold":true,"text":"CraftSuperkulou"}]
+                }
+            ]
+        },
+        {
+            "type": "plain_message",
+            "contents": [
+                {
+                    "player": {
+                        "id": [-1728785509,2019315174,-1199809718,-1232126718]
+                    },
+                    "extra": ["",{"color":"green","bold":true,"text":"HashBrown0v0"}]
+                }
+            ]
+        },
+        {
+            "type": "plain_message",
+            "contents": [
+                {
+                    "player": {
+                        "id": [1518011729,1063928712,-1757866183,1804441371]
+                    },
+                    "extra": ["",{"color":"green","bold":true,"text":"baokaixin"}]
+                }
+            ]
+        },
+        {
+            "type": "plain_message",
+            "contents": [
+                {
+                    "player": {
+                        "id": [-1132709554,-1404221036,-1799299314,353102856]
+                    },
+                    "extra": ["",{"color":"green","bold":true,"text":"si_feng"}]
+                }
+            ]
+        },
+        {
+            "type": "plain_message",
+            "contents": [
+                {
+                    "player": {
+                        "id": [2109596565,-1476181267,-1596335705,550331062]
+                    },
+                    "extra": ["",{"color":"green","bold":true,"text":"angeng233"}]
+                }
+            ]
+        },
+        {
+            "type": "plain_message",
+            "contents": [
+                {
+                    "player": {
+                        "id": [-167082093,565134984,-1390020519,1199211831]
+                    },
+                    "extra": ["",{"color":"green","bold":true,"text":"iamakiller1654"}]
+                }
+            ]
+        },
+        {
+            "type": "plain_message",
+            "contents": [
+                {
+                    "player": {
+                        "id": [1573089449,-543602042,-1668159173,-1650418642]
+                    },
+                    "extra": ["",{"color":"green","bold":true,"text":"Mayro_Neko"}]
+                }
+            ]
+        },
+        {
+            "type": "plain_message",
+            "contents": [
+                {
+                    "player": {
+                        "id": [-98009906,309479119,-1979233328,-102190677]
+                    },
+                    "extra": ["",{"color":"green","bold":true,"text":"Hart_GS"}]
+                }
+            ]
+        },
+        {
+            "type": "plain_message",
+            "contents": [
+                {
+                    "player": {
+                        "id": [-1146468695,1669023146,-1654512218,-63641785]
+                    },
+                    "extra": ["",{"color":"green","bold":true,"text":"Offline_Anytime"}]
+                }
+            ]
+        },
+        {
+            "type": "plain_message",
+            "contents": [
+                {
+                    "player": {
+                        "id": [-1764835045,498419831,-1357140699,-1618255086]
+                    },
+                    "extra": ["",{"color":"green","bold":true,"text":"Tianxiao123"}]
+                }
+            ]
+        },
+        {
+            "type": "plain_message",
+            "contents": [
+                {
+                    "player": {
+                        "id": [155768373,522667397,-1557193165,-2142151495]
+                    },
+                    "extra": ["",{"color":"green","bold":true,"text":"Carefree_lonely"}]
+                }
+            ]
+        },
+        {
+            "type": "plain_message",
+            "contents": [
+                {
+                    "player": {
+                        "id": [-500521673,-1217313211,-1120478131,1393023045]
+                    },
+                    "extra": ["",{"color":"green","bold":true,"text":"Fthr_LinnCdr"}]
+                }
+            ]
+        },
+        {
+            "type": "plain_message",
+            "contents": [
+                {
+                    "player": {
+                        "id": [1054970813,403392127,-1487028437,-1083247611]
+                    },
+                    "extra": ["",{"color":"green","bold":true,"text":"M14_MOD3"}]
+                }
+            ]
+        }
+    ],
+    "action": {
+        "label": {
+            "text": "返回"
+        },
+        "action": {
+            "type": "show_dialog",
+            "dialog": "yw-pillar:quick_actions"
+        }
+    }
+}

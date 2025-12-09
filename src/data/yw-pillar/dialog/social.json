@@ -1,0 +1,37 @@
+{
+    "type": "multi_action",
+    "title": [ "", { "color": "#bd2fc2", "text": "幸" }, { "color": "#cf5f85", "text": "运" }, { "color": "#e28e47", "text": "之" }, { "color": "#f4bd0a", "text": "柱" }, { "text": " | 社交媒体" } ],
+    "columns": 1,
+    "actions": [
+        {
+            "label": ["\uE002",{"color":"light_purple","bold":true,"text":"B站"}],
+            "action": {
+                "type": "open_url",
+                "url": "https://space.bilibili.com/438381132"
+            }
+        },
+        {
+            "label": ["\uE003",{"color":"blue","bold":true,"text":"Q群"}],
+            "action": {
+                "type": "open_url",
+                "url": "https://qm.qq.com/q/dNeAXUwYDu"
+            }
+        },
+        {
+            "label": ["\uE004",{"color":"green","bold":true,"text":"PMC"}],
+            "action": {
+                "type": "open_url",
+                "url": "https://www.planetminecraft.com/member/fishing886"
+            }
+        }
+    ],
+    "exit_action": {
+        "label": {
+            "text": "返回"
+        },
+        "action": {
+            "type": "show_dialog",
+            "dialog": "yw-pillar:quick_actions"
+        }
+    }
+}

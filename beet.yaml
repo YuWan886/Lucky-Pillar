@@ -34,7 +34,6 @@ pipeline:
     - script.custom_function_headers
     - stewbeet.plugins.auto.headers
     
-    
 meta:
     bolt:
       entrypoint: 

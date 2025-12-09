@@ -1,0 +1,71 @@
+{
+    "type": "multi_action",
+    "title": [ "", { "color": "#bd2fc2", "text": "幸" }, { "color": "#cf5f85", "text": "运" }, { "color": "#e28e47", "text": "之" }, { "color": "#f4bd0a", "text": "柱" }, { "text": " | 快捷操作" } ],
+    "columns": 1,
+    "actions": [
+        {
+            "label": {
+                "text": "地图介绍"
+            },
+            "action": {
+                "type": "open_url",
+                "url": "https://docs.yw-games.top/posts/creations/map/lucky-pillar.html"
+            }
+        },
+        {
+            "label": {
+                "text": "社交媒体"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "yw-pillar:social"
+            }
+        },
+        {
+            "label": {
+                "text": "反馈BUG"
+            },
+            "action": {
+                "type": "open_url",
+                "url": "https://docs.qq.com/smartsheet/DUUt2UHZvS2RpaUtC?tab=BB08J2"
+            }
+        },
+        {
+            "label": {
+                "text": "查看战绩"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger TriggerSetting.Dialog set 102"
+            },
+            "tooltip": {
+                "text": "游戏中不可用",
+                "color": "red",
+                "italic": true
+            }
+        },
+        {
+            "label": {
+                "text": "对局记录"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger TriggerSetting.Dialog set 103"
+            },
+            "tooltip": {
+                "text": "游戏中不可用",
+                "color": "red",
+                "italic": true
+            }
+        },
+        {
+            "label": {
+                "text": "测试人员"
+            },
+            "action": {
+                "type": "show_dialog",
+                "dialog": "yw-pillar:testplayer/015"
+            }
+        }
+    ]
+}

@@ -3,7 +3,7 @@
 # Lucky Pillar
 
 > **Version**: 0.1.5
-> **Author**: 一条鱼丸_
+> **Creator**: 一条鱼丸_
 > **Minecraft**: 1.21.11
 
 ## Game Introduction
@@ -24,6 +24,7 @@
 |---------|----------|
 | **Wool** | Classic |
 | **Nether** | Classic Dimension: The Nether |
+| **Glass** | Classic |
 | **Ocean** | Special Obtain items through fishing, water is highly toxic |
 
 ### ⚡ Random Event System
@@ -46,6 +47,9 @@
 | **Broken Leg** | Unable to jump |
 | **One-Hit Kill** | Player attack damage becomes 40 |
 | **CREEPER** | Summons a creeper, with 10% chance of charged creeper |
+| **Pat Pat** | Player entity interaction distance becomes 10 |
+| **Inventory Exchange** | Players' inventory items are randomly exchanged |
+| **King Game** | Winner takes all |
 
 ### Special Rules
 
@@ -57,6 +61,7 @@
 | **Big! Big! Big!** | All players' size increased to 3/2 of original |
 | **My Partner** | Obtain a fox that provides strength and health regeneration while alive |
 | **One-Hit Kill** | Player attack damage becomes 40 |
+| **Inventory Exchange** | Random events are fixed to Inventory Exchange |
 
 ### Game Mechanics
 

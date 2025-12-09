@@ -1,6 +1,6 @@
 {
     "model": {
         "type": "model",
-        "model": "yw-pillar:lobby/log"
+        "model": "yw-pillar:item/doll/base"
     }
 }

@@ -1,0 +1,6 @@
+{
+    "parent": "yw-pillar:lobby/ready",
+    "textures": {
+        "layer0":"yw-pillar:item/lobby/log"
+    }
+}

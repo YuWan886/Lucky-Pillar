@@ -19,6 +19,33 @@
             ]
         },
         {
+            "type": "bitmap",
+            "file": "yw-pillar:font/social/bili.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uE002"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "yw-pillar:font/social/qq.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uE003"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "yw-pillar:font/social/pmc.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": [
+                "\uE004"
+            ]
+        },
+        {
             "type": "space",
             "advances": {
                 "󏿬": -20,
