@@ -1,3 +1,10 @@
+## 0.1.5-fix
+
+### Fixed
+
+- 地狱图的bug
+- 对于中途退出的玩家，可以使用 `/function yw-pillar:utils/game/remove_one_player` 来解决
+
 ## 0.1.5
 
 ### Added
@@ -35,6 +42,40 @@
 - 游戏结束后有概率获得物品
 - 开局触发上一局的事件
 
+### Added
+
+- MC Version: Updated to **1.21.11**
+- Random Events:
+    - Pat Pat
+    - Inventory Exchange
+    - King's Game
+- Special Rules:
+    - Inventory Exchange
+- Achievements:
+    - Victory and Kill series achievements
+- Items:
+    - Knockback Stick
+    - Witch's Red Apple
+    - Bruce
+    - My Godly Pickaxe
+    - Gediao
+    - Time
+    - Meow Axe
+- Start Button:
+    - Prompt and sound effect when unable to start the game
+- Developer Mode: `/function yw-pillar:utils/dev/on` – when enabled, the game cannot start normally; enter `function yw-pillar:utils/dev/off` to turn it off
+- 2 background music tracks
+- Match history: allows viewing records of the previous game
+
+### Changed
+
+- Team names changed to emoji 💕
+
+### Fixed
+
+- Bug where players join mid-game
+- Chance to receive items after the game ends
+- Events from the previous game triggering at the start
 
 ## 0.1.4
 

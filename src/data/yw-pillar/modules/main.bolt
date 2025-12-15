@@ -77,6 +77,9 @@ function ./game/event/17_king_game:
      execute as @r[tag=ingame,tag=!out] run tag @s add event.17_king_game
      effect give @a[tag=event.17_king_game] glowing infinite 0 true
      item replace entity @a[tag=event.17_king_game] armor.head with stick[custom_name={text:"伪·王冠",color:"gray",bold:true,italic:false},lore=[{text:"『欲戴王冠 必承其重』",color:"red",underlined:true}],equippable={slot:"head"},enchantments={binding_curse:1},tooltip_display={hidden_components:["enchantments"]},item_model="yw-pillar:event/crown",attribute_modifiers=[{id:"yw-pillar:fake_crown_1",type:"armor",amount:2,operation:"add_value",slot:"head"},{id:"yw-pillar:fake_crown_2",type:"armor_toughness",amount:2,operation:"add_value",slot:"head"},{"id":"yw-pillar:fake_crown_3",type:"attack_damage",amount:3,operation:"add_value",slot:"head"},{"id":"yw-pillar:fake_crown_4",type:"max_health",amount:5,operation:"add_value",slot:"head"}]]
+function ./game/event/18_lucky_doll:
+     event_template("幸运玩偶","gold","qvq")
+     execute as @a[tag=ingame,tag=!out] as @s run loot give @s loot yw-pillar:doll
 
 # 规则
 from ./lib/rule import rule_template

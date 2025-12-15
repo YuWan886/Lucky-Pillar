@@ -269,6 +269,17 @@
                     "extra": ["",{"color":"green","bold":true,"text":"M14_MOD3"}]
                 }
             ]
+        },
+        {
+            "type": "plain_message",
+            "contents": [
+                {
+                    "player": {
+                        "id": [1717653656,1276791705,-1987921217,276642135]
+                    },
+                    "extra": ["",{"color":"green","bold":true,"text":"efsdw"}]
+                }
+            ]
         }
     ],
     "action": {

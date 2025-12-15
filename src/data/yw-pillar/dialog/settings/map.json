@@ -38,27 +38,6 @@
         },
         {
             "label": {
-                "text": "海洋",
-                "color": "blue"
-            },
-            "tooltip": {
-                "text": "特殊模式",
-                "extra": [
-                    {
-                        "text": "\n - 钓鱼获得物品"
-                    },
-                    {
-                        "text": "\n - 水有剧毒"
-                    }
-                ]
-            },
-            "action": {
-                "type": "run_command",
-                "command": "trigger TriggerSetting.Map set 201"
-            }
-        },
-        {
-            "label": {
                 "text": "地狱",
                 "color": "dark_red"
             },
@@ -86,6 +65,27 @@
             "action": {
                 "type": "run_command",
                 "command": "trigger TriggerSetting.Map set 103"
+            }
+        },
+        {
+            "label": {
+                "text": "海洋",
+                "color": "blue"
+            },
+            "tooltip": {
+                "text": "特殊模式",
+                "extra": [
+                    {
+                        "text": "\n - 钓鱼获得物品"
+                    },
+                    {
+                        "text": "\n - 水有剧毒"
+                    }
+                ]
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger TriggerSetting.Map set 201"
             }
         }
     ],

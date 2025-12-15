@@ -24,9 +24,10 @@ execute if score #Game EventID matches 14 run function yw-pillar:game/event/14_c
 execute if score #Game EventID matches 15 run function yw-pillar:game/event/15_touch
 execute if score #Game EventID matches 16 run function yw-pillar:game/event/16_inv_exchange
 execute if score #Game EventID matches 17 run function yw-pillar:game/event/17_king_game
+execute if score #Game EventID matches 18 run function yw-pillar:game/event/18_lucky_doll
 
-execute if score #Game EventID matches 18.. run tellraw @a ["",{text:"[Tips]",color:"gold",bold:true},{text:"无事发生...",color:"green"}]
+execute if score #Game EventID matches 19.. run tellraw @a ["",{text:"[Tips]",color:"gold",bold:true},{text:"无事发生...",color:"green"}]
 execute store result score #Timer EventTimer run data get storage yw-pillar:settings time.event_time
 
-execute if score #Game EventID matches 18.. run return fail
+execute if score #Game EventID matches 19.. run return fail
 function yw-pillar:game/log/temp/event

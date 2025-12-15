@@ -1,0 +1,184 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "totem_of_undying",
+                    "functions": [
+                        { "function": "set_components", "components": { "custom_name": { "text": "幸运玩偶", "color": "gold", "bold": true, "italic": false }, "lore": [ {"text": "你好:)","color": "green"}, [{"text": "玩家ID：","color": "aqua"},{"text": "fishing886_","color": "aqua"}] ], "item_model": "yw-pillar:doll","custom_model_data": {"strings": ["fishing886_"]} } }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "totem_of_undying",
+                    "functions": [
+                        { "function": "set_components", "components": { "custom_name": { "text": "幸运玩偶", "color": "gold", "bold": true, "italic": false }, "lore": [ {"text": "你好:)","color": "green"}, [{"text": "玩家ID：","color": "aqua"},{"text": "YuWan_SAMA","color": "aqua"}] ], "item_model": "yw-pillar:doll","custom_model_data": {"strings": ["YuWan_SAMA"]} } }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "totem_of_undying",
+                    "functions": [
+                        { "function": "set_components", "components": { "custom_name": { "text": "幸运玩偶", "color": "gold", "bold": true, "italic": false }, "lore": [ {"text": "你好:)","color": "green"}, [{"text": "玩家ID：","color": "aqua"},{"text": "home1247","color": "aqua"}] ], "item_model": "yw-pillar:doll","custom_model_data": {"strings": ["home1247"]} } }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "totem_of_undying",
+                    "functions": [
+                        { "function": "set_components", "components": { "custom_name": { "text": "幸运玩偶", "color": "gold", "bold": true, "italic": false }, "lore": [ {"text": "你好:)","color": "green"}, [{"text": "玩家ID：","color": "aqua"},{"text": "XuetiaoG","color": "aqua"}] ], "item_model": "yw-pillar:doll","custom_model_data": {"strings": ["XuetiaoG"]} } }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "totem_of_undying",
+                    "functions": [
+                        { "function": "set_components", "components": { "custom_name": { "text": "幸运玩偶", "color": "gold", "bold": true, "italic": false }, "lore": [ {"text": "你好:)","color": "green"}, [{"text": "玩家ID：","color": "aqua"},{"text": "TheXiaoYu0v0_","color": "aqua"}] ], "item_model": "yw-pillar:doll","custom_model_data": {"strings": ["TheXiaoYu0v0_"]} } }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "totem_of_undying",
+                    "functions": [
+                        { "function": "set_components", "components": { "custom_name": { "text": "幸运玩偶", "color": "gold", "bold": true, "italic": false }, "lore": [ {"text": "你好:)","color": "green"}, [{"text": "玩家ID：","color": "aqua"},{"text": "pingsanyi","color": "aqua"}] ], "item_model": "yw-pillar:doll","custom_model_data": {"strings": ["pingsanyi"]} } }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "totem_of_undying",
+                    "functions": [
+                        { "function": "set_components", "components": { "custom_name": { "text": "幸运玩偶", "color": "gold", "bold": true, "italic": false }, "lore": [ {"text": "你好:)","color": "green"}, [{"text": "玩家ID：","color": "aqua"},{"text": "Rachel521","color": "aqua"}] ], "item_model": "yw-pillar:doll","custom_model_data": {"strings": ["Rachel521"]} } }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "totem_of_undying",
+                    "functions": [
+                        { "function": "set_components", "components": { "custom_name": { "text": "幸运玩偶", "color": "gold", "bold": true, "italic": false }, "lore": [ {"text": "你好:)","color": "green"}, [{"text": "玩家ID：","color": "aqua"},{"text": "BingHuoX","color": "aqua"}] ], "item_model": "yw-pillar:doll","custom_model_data": {"strings": ["BingHuoX"]} } }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "totem_of_undying",
+                    "functions": [
+                        { "function": "set_components", "components": { "custom_name": { "text": "幸运玩偶", "color": "gold", "bold": true, "italic": false }, "lore": [ {"text": "你好:)","color": "green"}, [{"text": "玩家ID：","color": "aqua"},{"text": "mc_mdba","color": "aqua"}] ], "item_model": "yw-pillar:doll","custom_model_data": {"strings": ["mc_mdba"]} } }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "totem_of_undying",
+                    "functions": [
+                        { "function": "set_components", "components": { "custom_name": { "text": "幸运玩偶", "color": "gold", "bold": true, "italic": false }, "lore": [ {"text": "你好:)","color": "green"}, [{"text": "玩家ID：","color": "aqua"},{"text": "bulu__boom","color": "aqua"}] ], "item_model": "yw-pillar:doll","custom_model_data": {"strings": ["bulu__boom"]} } }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "totem_of_undying",
+                    "functions": [
+                        { "function": "set_components", "components": { "custom_name": { "text": "幸运玩偶", "color": "gold", "bold": true, "italic": false }, "lore": [ {"text": "你好:)","color": "green"}, [{"text": "玩家ID：","color": "aqua"},{"text": "TheTaiZiY","color": "aqua"}] ], "item_model": "yw-pillar:doll","custom_model_data": {"strings": ["TheTaiZiY"]} } }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "totem_of_undying",
+                    "functions": [
+                        { "function": "set_components", "components": { "custom_name": { "text": "幸运玩偶", "color": "gold", "bold": true, "italic": false }, "lore": [ {"text": "你好:)","color": "green"}, [{"text": "玩家ID：","color": "aqua"},{"text": "CraftSuperkulou","color": "aqua"}] ], "item_model": "yw-pillar:doll","custom_model_data": {"strings": ["CraftSuperkulou"]} } }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "totem_of_undying",
+                    "functions": [
+                        { "function": "set_components", "components": { "custom_name": { "text": "幸运玩偶", "color": "gold", "bold": true, "italic": false }, "lore": [ {"text": "你好:)","color": "green"}, [{"text": "玩家ID：","color": "aqua"},{"text": "HashBrown0v0","color": "aqua"}] ], "item_model": "yw-pillar:doll","custom_model_data": {"strings": ["HashBrown0v0"]} } }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "totem_of_undying",
+                    "functions": [
+                        { "function": "set_components", "components": { "custom_name": { "text": "幸运玩偶", "color": "gold", "bold": true, "italic": false }, "lore": [ {"text": "你好:)","color": "green"}, [{"text": "玩家ID：","color": "aqua"},{"text": "baokaixin","color": "aqua"}] ], "item_model": "yw-pillar:doll","custom_model_data": {"strings": ["baokaixin"]} } }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "totem_of_undying",
+                    "functions": [
+                        { "function": "set_components", "components": { "custom_name": { "text": "幸运玩偶", "color": "gold", "bold": true, "italic": false }, "lore": [ {"text": "你好:)","color": "green"}, [{"text": "玩家ID：","color": "aqua"},{"text": "si_feng","color": "aqua"}] ], "item_model": "yw-pillar:doll","custom_model_data": {"strings": ["si_feng"]} } }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "totem_of_undying",
+                    "functions": [
+                        { "function": "set_components", "components": { "custom_name": { "text": "幸运玩偶", "color": "gold", "bold": true, "italic": false }, "lore": [ {"text": "你好:)","color": "green"}, [{"text": "玩家ID：","color": "aqua"},{"text": "angeng233","color": "aqua"}] ], "item_model": "yw-pillar:doll","custom_model_data": {"strings": ["angeng233"]} } }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "totem_of_undying",
+                    "functions": [
+                        { "function": "set_components", "components": { "custom_name": { "text": "幸运玩偶", "color": "gold", "bold": true, "italic": false }, "lore": [ {"text": "你好:)","color": "green"}, [{"text": "玩家ID：","color": "aqua"},{"text": "iamakiller1654","color": "aqua"}] ], "item_model": "yw-pillar:doll","custom_model_data": {"strings": ["iamakiller1654"]} } }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "totem_of_undying",
+                    "functions": [
+                        { "function": "set_components", "components": { "custom_name": { "text": "幸运玩偶", "color": "gold", "bold": true, "italic": false }, "lore": [ {"text": "你好:)","color": "green"}, [{"text": "玩家ID：","color": "aqua"},{"text": "Mayro_Neko","color": "aqua"}] ], "item_model": "yw-pillar:doll","custom_model_data": {"strings": ["Mayro_Neko"]} } }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "totem_of_undying",
+                    "functions": [
+                        { "function": "set_components", "components": { "custom_name": { "text": "幸运玩偶", "color": "gold", "bold": true, "italic": false }, "lore": [ {"text": "你好:)","color": "green"}, [{"text": "玩家ID：","color": "aqua"},{"text": "Hart_GS","color": "aqua"}] ], "item_model": "yw-pillar:doll","custom_model_data": {"strings": ["Hart_GS"]} } }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "totem_of_undying",
+                    "functions": [
+                        { "function": "set_components", "components": { "custom_name": { "text": "幸运玩偶", "color": "gold", "bold": true, "italic": false }, "lore": [ {"text": "你好:)","color": "green"}, [{"text": "玩家ID：","color": "aqua"},{"text": "Offline_Anytime","color": "aqua"}] ], "item_model": "yw-pillar:doll","custom_model_data": {"strings": ["Offline_Anytime"]} } }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "totem_of_undying",
+                    "functions": [
+                        { "function": "set_components", "components": { "custom_name": { "text": "幸运玩偶", "color": "gold", "bold": true, "italic": false }, "lore": [ {"text": "你好:)","color": "green"}, [{"text": "玩家ID：","color": "aqua"},{"text": "Tianxiao123","color": "aqua"}] ], "item_model": "yw-pillar:doll","custom_model_data": {"strings": ["Tianxiao123"]} } }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "totem_of_undying",
+                    "functions": [
+                        { "function": "set_components", "components": { "custom_name": { "text": "幸运玩偶", "color": "gold", "bold": true, "italic": false }, "lore": [ {"text": "你好:)","color": "green"}, [{"text": "玩家ID：","color": "aqua"},{"text": "Carefree_lonely","color": "aqua"}] ], "item_model": "yw-pillar:doll","custom_model_data": {"strings": ["Carefree_lonely"]} } }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "totem_of_undying",
+                    "functions": [
+                        { "function": "set_components", "components": { "custom_name": { "text": "幸运玩偶", "color": "gold", "bold": true, "italic": false }, "lore": [ {"text": "你好:)","color": "green"}, [{"text": "玩家ID：","color": "aqua"},{"text": "Fthr_LinnCdr","color": "aqua"}] ], "item_model": "yw-pillar:doll","custom_model_data": {"strings": ["Fthr_LinnCdr"]} } }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "totem_of_undying",
+                    "functions": [
+                        { "function": "set_components", "components": { "custom_name": { "text": "幸运玩偶", "color": "gold", "bold": true, "italic": false }, "lore": [ {"text": "你好:)","color": "green"}, [{"text": "玩家ID：","color": "aqua"},{"text": "M14_MOD3","color": "aqua"}] ], "item_model": "yw-pillar:doll","custom_model_data": {"strings": ["M14_MOD3"]} } }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "totem_of_undying",
+                    "functions": [
+                        { "function": "set_components", "components": { "custom_name": { "text": "幸运玩偶", "color": "gold", "bold": true, "italic": false }, "lore": [ {"text": "你好:)","color": "green"}, [{"text": "玩家ID：","color": "aqua"},{"text": "efsdw","color": "aqua"}] ], "item_model": "yw-pillar:doll","custom_model_data": {"strings": ["efsdw"]} } }
+                    ]
+                }
+            ]
+        }
+    ]
+}

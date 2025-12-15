@@ -1,0 +1,6 @@
+{
+    "parent": "yw-pillar:item/doll/base",
+    "textures": {
+        "2": "yw-pillar:item/doll/bulu__boom"
+    }
+}

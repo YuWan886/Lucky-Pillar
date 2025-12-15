@@ -11,10 +11,12 @@
 **Lucky Pillar** is a multiplayer game based on Minecraft. Players are randomly distributed on towering pillars on a platform, using randomly distributed items to deal with various random events, defeat other players, and survive to the end to become the winner!
 
 ### Core Gameplay
+
 - **Multiplayer Competition**: Supports 2-8 players competing simultaneously
 - **Random Items**: Receive different weapons and items randomly each round
 - **Dynamic Events**: Various random events triggered during gameplay
 - **Survival Challenge**: Survive on limited platforms and defeat opponents
+- **Multi-language Support:** Currently supports:简体中文、English
 
 ## Main Features
 
@@ -50,6 +52,7 @@
 | **Pat Pat** | Player entity interaction distance becomes 10 |
 | **Inventory Exchange** | Players' inventory items are randomly exchanged |
 | **King Game** | Winner takes all |
+| **Lucky Doll** | Obtain a doll |
 
 ### Special Rules
 

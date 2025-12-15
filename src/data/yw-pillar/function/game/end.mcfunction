@@ -22,8 +22,8 @@ team join Ready @a[tag=ready]
 clear @a
 effect clear @a
 gamemode adventure @a
-tp @a 100 3 100
-spawnpoint @a 100 3 100
+execute in overworld run tp @a 100 3 100
+execute in overworld run spawnpoint @a 100 3 100
 
 function yw-pillar:game/pillars/reset_1
 function yw-pillar:lobby/entity

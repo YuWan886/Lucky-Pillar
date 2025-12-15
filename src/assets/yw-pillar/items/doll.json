@@ -1,0 +1,187 @@
+{
+    "model": {
+        "type": "select",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "yw-pillar:item/doll/base"
+        },
+        "cases": [
+            {
+                "model": {
+                    "type": "model",
+                    "model": "yw-pillar:item/doll/base"
+                },
+                "when": "fishing886_"
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "yw-pillar:item/doll/yuwan_sama"
+                },
+                "when": "YuWan_SAMA"
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "yw-pillar:item/doll/home1247"
+                },
+                "when": "home1247"
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "yw-pillar:item/doll/xuetiaog"
+                },
+                "when": "XuetiaoG"
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "yw-pillar:item/doll/thexiaoyu0v0_"
+                },
+                "when": "TheXiaoYu0v0_"
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "yw-pillar:item/doll/pingsanyi"
+                },
+                "when": "pingsanyi"
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "yw-pillar:item/doll/rachel521"
+                },
+                "when": "Rachel521"
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "yw-pillar:item/doll/binghuox"
+                },
+                "when": "BingHuoX"
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "yw-pillar:item/doll/mc_mdba"
+                },
+                "when": "mc_mdba"
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "yw-pillar:item/doll/bulu__boom"
+                },
+                "when": "bulu__boom"
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "yw-pillar:item/doll/thetaiziy"
+                },
+                "when": "TheTaiZiY"
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "yw-pillar:item/doll/craftsuperkulou"
+                },
+                "when": "CraftSuperkulou"
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "yw-pillar:item/doll/hashbrown0v0"
+                },
+                "when": "HashBrown0v0"
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "yw-pillar:item/doll/baokaixin"
+                },
+                "when": "baokaixin"
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "yw-pillar:item/doll/si_feng"
+                },
+                "when": "si_feng"
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "yw-pillar:item/doll/angeng233"
+                },
+                "when": "angeng233"
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "yw-pillar:item/doll/iamakiller1654"
+                },
+                "when": "iamakiller1654"
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "yw-pillar:item/doll/mayro_neko"
+                },
+                "when": "Mayro_Neko"
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "yw-pillar:item/doll/hart_gs"
+                },
+                "when": "Hart_GS"
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "yw-pillar:item/doll/offline_anytime"
+                },
+                "when": "Offline_Anytime"
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "yw-pillar:item/doll/tianxiao123"
+                },
+                "when": "Tianxiao123"
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "yw-pillar:item/doll/carefree_lonely"
+                },
+                "when": "Carefree_lonely"
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "yw-pillar:item/doll/fthr_linncdr"
+                },
+                "when": "Fthr_LinnCdr"
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "yw-pillar:item/doll/m14_mod3"
+                },
+                "when": "M14_MOD3"
+            },
+            {
+                "model": {
+                    "type": "model",
+                    "model": "yw-pillar:item/doll/efsdw"
+                },
+                "when": "efsdw"
+            }
+        ]
+    }
+}
