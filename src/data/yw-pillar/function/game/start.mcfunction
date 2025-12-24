@@ -20,6 +20,7 @@ gamemode adventure @a[tag=ready]
 tag @a[tag=ready] add ingame
 team join InGame @a[tag=ready]
 
+execute as @a run function yw-pillar:utils/player/reset/all
 dialog clear @a
 clear @a
 effect clear @a

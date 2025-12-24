@@ -5,6 +5,8 @@ function yw-pillar:test/tick
 
 # 雪球和鸡蛋
 function yw-pillar:utils/game/item/projectile
+# 持续触发
+function yw-pillar:utils/game/item/sustain
 # 重进游戏
 execute as @a[scores={LeaveGame=1..}] if score @s GameID = #Game GameID run function yw-pillar:utils/player/join/reconnect
 execute as @a unless score @s GameID = #Game GameID run function yw-pillar:utils/player/join/main

@@ -36,7 +36,7 @@ function ./game/event/9_lightning:
 function ./game/event/10_hello_world:
      event_template("你好,世界","green","Hello World!")
      time set day
-     execute as @a[tag=ingame,tag=!out] run effect give @s instant_health 1 5 true
+     execute as @a[tag=ingame,tag=!out] run effect give @s instant_health 1 5
 function ./game/event/11_undye:
      event_template("「不死」","gold","+1 life")
      execute as @a[tag=ingame,tag=!out] run give @s totem_of_undying 1
@@ -49,8 +49,8 @@ function ./game/event/13_punch:
      execute as @a[tag=ingame,tag=!out] run attribute @s attack_damage base set 40
 function ./game/event/14_creeper:
      event_template("CREEPER","white","Creeper?")
-     execute as @a[tag=ingame,tag=!out] at @s if predicate {condition:"random_chance",chance:0.1} run return run summon creeper ~ ~0.5 ~ {Silent:true,powered:true}
      execute as @a[tag=ingame,tag=!out] at @s run summon creeper ~ ~0.5 ~
+     execute as @a[tag=ingame,tag=!out] as @s if predicate {condition:"random_chance",chance:0.1} run return run data modify entity @e[type=creeper,distance=..1,limit=1] powered set value true
 function ./game/event/15_touch:
      event_template("摸摸","#e315c8","OvO")
      execute as @a[tag=ingame,tag=!out] run attribute @s entity_interaction_range modifier add yw-pillar:event.pat_pat 10 add_value
@@ -60,21 +60,37 @@ function ./game/event/16_inv_exchange:
 function ./game/event/17_king_game:
      event_template("国王游戏","gold","成王败寇")
      execute as @r[tag=ingame,tag=!out] run tag @s add event.17_king_game
-     effect give @a[tag=event.17_king_game] glowing infinite 0 true
-     item replace entity @a[tag=event.17_king_game] armor.head with stick[custom_name={text:"伪·王冠",color:"gray",bold:true,italic:false},lore=[{text:"『欲戴王冠 必承其重』",color:"red",underlined:true}],equippable={slot:"head"},enchantments={binding_curse:1},tooltip_display={hidden_components:["enchantments"]},item_model="yw-pillar:event/crown",attribute_modifiers=[{id:"yw-pillar:fake_crown_1",type:"armor",amount:2,operation:"add_value",slot:"head"},{id:"yw-pillar:fake_crown_2",type:"armor_toughness",amount:2,operation:"add_value",slot:"head"},{"id":"yw-pillar:fake_crown_3",type:"attack_damage",amount:3,operation:"add_value",slot:"head"},{"id":"yw-pillar:fake_crown_4",type:"max_health",amount:5,operation:"add_value",slot:"head"}]]
+     effect give @a[tag=event.17_king_game] glowing infinite 0
+     item replace entity @a[tag=event.17_king_game] armor.head with stick[custom_name={text:"伪·王冠",color:"gray",bold:true,italic:false},lore=[{text:"『欲戴王冠 必承其重』",color:"red",underlined:true}],equippable={slot:"head"},enchantments={binding_curse:1},tooltip_display={hidden_components:["enchantments"]},item_model="yw-pillar:event/crown",attribute_modifiers=[{id:"yw-pillar:fake_crown_1",type:"armor",amount:2,operation:"add_value",slot:"head"},{id:"yw-pillar:fake_crown_2",type:"armor_toughness",amount:2,operation:"add_value",slot:"head"},{"id":"yw-pillar:fake_crown_3",type:"max_health",amount:5,operation:"add_value",slot:"head"}]]
+     give @a[tag=ingame,tag=!out,tag=!event.17_king_game] stone 16
 function ./game/event/18_lucky_doll:
      event_template("幸运玩偶","gold","qvq")
      execute as @a[tag=ingame,tag=!out] as @s run loot give @s loot yw-pillar:doll
 function ./game/event/19_hungry:
      event_template("饿啊饿啊","#587653","eaea")
-     execute as @a[tag=ingame,tag=!out] effect give @s hunger 30 40 true
+     execute as @a[tag=ingame,tag=!out] effect give @s hunger 30 40
 function ./game/event/20_black:
      event_template("黑","white","真的黑")
+     title @a times 10t 9s 10t
      title @a[tag=ingame,tag=!out] title "\uE005"
 function ./game/event/21_speed:
-     event_template("Speed","aqua","🦽冲刺冲刺🦽")
+     event_template("Speed","aqua","§b♿冲刺冲刺♿")
      execute as @a[tag=ingame,tag=!out] run attribute @s movement_speed modifier add yw-pillar:event.speed 0.2 add_value
-     
+function ./game/event/22_mini:
+     event_template("迷你化","#ff023d","> <")
+     execute as @a[tag=ingame,tag=!out] run attribute @s scale modifier add yw-pillar:event.mini -0.8 add_value
+function ./game/event/23_huge:
+     event_template("巨大化","#2403ff","= =")
+     execute as @a[tag=ingame,tag=!out] run attribute @s scale modifier add yw-pillar:event.huge 4 add_value
+function ./game/event/24_nuclear:
+     event_template("核电","#06c103","核电，轻而易举")
+     execute as @a[tag=ingame,tag=!out] at @s run summon creeper ~ ~ ~ {CustomName:{text:"坏了坏了",color:"red",bold:true},powered:true,ExplosionRadius:10}
+function ./game/event/25_rainy_day:
+     event_template("雨天","aqua","我的世界下雨了☂")
+     weather rain 24000
+     give @a[tag=ingame,tag=!out] trident[enchantments={riptide:3}]
+     advancement grant @a[tag=ingame,tag=!out] only yw-pillar:main/event/25_rainy_day 
+
 # 规则
 from ./lib/rule import rule_template
 
@@ -93,10 +109,11 @@ function ./game/rule/4_punch:
 function ./game/rule/5_inv_exchange:
      rule_template("背包交换","green",-11832829,"随机事件固定为 §l背包交换")
 
-#柱
+#柱 
 from ./lib/pillar import pillar_tempalte
 
 pillar_tempalte("wool","bedrock")
 pillar_tempalte("nether","red_nether_bricks")
 pillar_tempalte("glass","glass")
 pillar_tempalte("void","stone")
+pillar_tempalte("moon","end_stone")

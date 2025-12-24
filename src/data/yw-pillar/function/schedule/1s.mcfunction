@@ -3,6 +3,7 @@ execute if score #Game MapNumber matches 102 in yw-pillar:the_nether_2 run funct
 execute if score #Game MapNumber matches 103 run function yw-pillar:game/pillars/glass/ingame
 execute if score #Game MapNumber matches 104 run function yw-pillar:game/pillars/void/ingame
 execute if score #Game MapNumber matches 201 run function yw-pillar:game/pillars/sea/ingame
+execute if score #Game MapNumber matches 202 run function yw-pillar:game/pillars/moon/ingame
 
 # 随机事件
 execute if score #Timer EventDura.Sec matches 1.. run function yw-pillar:game/event/duration_sec

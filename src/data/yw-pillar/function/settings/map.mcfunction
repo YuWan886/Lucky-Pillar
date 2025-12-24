@@ -6,6 +6,7 @@ execute if score @s TriggerSetting.Map matches 102 run tellraw @a ["",{text:"   
 execute if score @s TriggerSetting.Map matches 103 run tellraw @a ["",{text:"      当前地图：",color:"gold"},{nbt:"game.map_name",storage:"yw-pillar:settings",color:"red"},"->",{text:"玻璃",color:"green"}]
 execute if score @s TriggerSetting.Map matches 104 run tellraw @a ["",{text:"      当前地图：",color:"gold"},{nbt:"game.map_name",storage:"yw-pillar:settings",color:"red"},"->",{text:"虚空",color:"green"}]
 execute if score @s TriggerSetting.Map matches 201 run tellraw @a ["",{text:"      当前地图：",color:"gold"},{nbt:"game.map_name",storage:"yw-pillar:settings",color:"red"},"->",{text:"海洋",color:"green"}]
+execute if score @s TriggerSetting.Map matches 202 run tellraw @a ["",{text:"      当前地图：",color:"gold"},{nbt:"game.map_name",storage:"yw-pillar:settings",color:"red"},"->",{text:"月球",color:"green"}]
 tellraw @a "\n=-------------------------="
 
 # 羊毛
@@ -19,10 +20,13 @@ tellraw @a "\n=-------------------------="
     execute if score @s TriggerSetting.Map matches 103 run function aj:pillar/glass
 # 虚空
     execute if score @s TriggerSetting.Map matches 104 run data modify storage yw-pillar:settings game merge value {map_name:"虚空",map_id:void}
-    execute if score @s TriggerSetting.Map matches 104 run function aj:pillar/wool
+    execute if score @s TriggerSetting.Map matches 104 run function aj:pillar/void
 # 海洋
     execute if score @s TriggerSetting.Map matches 201 run data modify storage yw-pillar:settings game merge value {map_name:"海洋",map_id:sea}
     execute if score @s TriggerSetting.Map matches 201 run function aj:pillar/sea
+# 月球
+    execute if score @s TriggerSetting.Map matches 202 run data modify storage yw-pillar:settings game merge value {map_name:"月球",map_id:moon}
+    execute if score @s TriggerSetting.Map matches 202 run function aj:pillar/moon
 
 function yw-pillar:dialog/settings/menu with storage yw-pillar:settings game
 scoreboard players set @s TriggerSetting.Map 0

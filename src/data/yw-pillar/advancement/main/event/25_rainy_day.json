@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "be_king": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "yw-pillar:main/root",
+    "display": {
+        "title": {
+            "text": "我的世界下雨了",
+            "color": "blue"
+        },
+        "description": {
+            "text": "我处理不好...",
+            "color": "gray",
+            "italic": true
+        },
+        "icon": {
+            "id": "blue_stained_glass"
+        }
+    }
+}

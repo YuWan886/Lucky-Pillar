@@ -9,5 +9,7 @@ execute if score #Game MapNumber matches 103 run function yw-pillar:game/pillars
 execute if score #Game MapNumber matches 104 run function yw-pillar:game/pillars/void/tp with storage yw-pillar:settings game
 # 海洋
 execute if score #Game MapNumber matches 201 run function yw-pillar:game/pillars/sea/tp with storage yw-pillar:settings game
+# 月球
+execute if score #Game MapNumber matches 202 run function yw-pillar:game/pillars/moon/tp with storage yw-pillar:settings game
 
 execute as @a[tag=spectator] run tp @s @r[tag=ingame]

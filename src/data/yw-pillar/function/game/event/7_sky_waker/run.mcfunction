@@ -1,1 +1,1 @@
-effect give @a[tag=ingame,tag=!out] levitation 10 0 true
+effect give @a[tag=ingame,tag=!out] levitation 10 0

@@ -100,6 +100,24 @@
                 "type": "run_command",
                 "command": "trigger TriggerSetting.Map set 201"
             }
+        },
+        {
+            "label": {
+                "text": "月球",
+                "color": "#fde39b"
+            },
+            "tooltip": {
+                "text": "特殊模式",
+                "extra": [
+                    {
+                        "text": "\n - 低重力"
+                    }
+                ]
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger TriggerSetting.Map set 202"
+            }
         }
     ],
     "exit_action": {

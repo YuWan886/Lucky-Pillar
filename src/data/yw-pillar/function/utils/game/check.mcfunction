@@ -9,5 +9,5 @@ function yw-pillar:utils/player/count
 execute if score #Game PlayerCount.Ready matches ..1 run playsound yw-pillar:fail_start
 execute if score #Game PlayerCount.Ready matches ..1 run return run tellraw @a ["",{text:"[Error]",color:"red",bold:true},{color:"gold",text:"准备人数小于"},{color:"aqua",bold:true,text:"2"},{color:"gold",text:"，无法开始游戏"}]
 # 人数 > 12
-execute if score #Game PlayerCount.Ready matches 12.. run playsound yw-pillar:fail_start
-execute if score #Game PlayerCount.Ready matches 12.. run return run tellraw @a ["",{text:"[Error]",color:"red",bold:true},{color:"gold",text:"准备人数大于"},{color:"aqua",bold:true,text:"8"},{color:"gold",text:"，无法开始游戏"}]
+execute if score #Game PlayerCount.Ready matches 13.. run playsound yw-pillar:fail_start
+execute if score #Game PlayerCount.Ready matches 13.. run return run tellraw @a ["",{text:"[Error]",color:"red",bold:true},{color:"gold",text:"准备人数大于"},{color:"aqua",bold:true,text:"13"},{color:"gold",text:"，无法开始游戏"}]

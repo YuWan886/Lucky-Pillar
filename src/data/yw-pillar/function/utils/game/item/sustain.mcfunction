@@ -1,0 +1,1 @@
+execute as @a if items entity @s weapon.mainhand feather[custom_data={"item":"feather"}] run effect give @s slow_falling 5

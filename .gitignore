@@ -8,3 +8,4 @@ __pycache__/
 pyproject.toml
 release
 .beet_cache
+src/plugin/mcsm_upload

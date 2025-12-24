@@ -27,7 +27,6 @@ resource_pack:
 
 pipeline:
     - mecha
-    # - src.plugin.archive
     # - script.try
     - script.event.inv_exchange
     - script.insert

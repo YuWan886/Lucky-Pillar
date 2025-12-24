@@ -1,0 +1,26 @@
+{
+    "criteria": {
+        "feather": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "feather",
+                        "components": {
+                            "item_name": {
+                                "translate": "item.minecraft.feather"
+                            }
+                        },
+                        "count": {
+                            "min": 1,
+                            "max": 64
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "yw-pillar:utils/game/item/feather"
+    }
+}

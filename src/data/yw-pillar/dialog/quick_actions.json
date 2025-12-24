@@ -16,7 +16,8 @@
         },
         {
             "label": {
-                "text": "社交媒体"
+                "text": "社交媒体",
+                "color": "green"
             },
             "action": {
                 "type": "show_dialog",
@@ -36,7 +37,8 @@
         },
         {
             "label": {
-                "text": "OP 指令"
+                "text": "OP 指令",
+                "color": "red"
             },
             "action": {
                 "type": "show_dialog",
@@ -45,7 +47,8 @@
         },
         {
             "label": {
-                "text": "查看战绩"
+                "text": "查看战绩",
+                "color": "yellow"
             },
             "action": {
                 "type": "run_command",
@@ -59,7 +62,8 @@
         },
         {
             "label": {
-                "text": "对局记录"
+                "text": "对局记录",
+                "color": "yellow"
             },
             "action": {
                 "type": "run_command",
@@ -73,7 +77,8 @@
         },
         {
             "label": {
-                "text": "测试人员"
+                "text": "测试人员",
+                "color": "light_purple"
             },
             "action": {
                 "type": "show_dialog",

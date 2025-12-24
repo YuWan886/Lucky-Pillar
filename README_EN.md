@@ -2,9 +2,11 @@
 
 # Lucky Pillar
 
-> **Version**: 0.1.6
-> **Creator**: 一条鱼丸_
-> **Minecraft**: 1.21.11
+> **Version**: 0.1.6  
+> **Creator**: 一条鱼丸_  
+> **Minecraft**: 1.21.11  
+
+[![Modrinth](https://img.shields.io/badge/Modrinth-Download-teal?style=for-the-badge&logo=modrinth)](https://modrinth.com/modpack/lucky-pillar)  [![CurseForge](https://img.shields.io/badge/CurseForge-Download-orange?style=for-the-badge&logo=curseforge)](https://www.curseforge.com/minecraft/modpacks/lucky-pillar)  [![PlanetMinecraft](https://img.shields.io/badge/PlanetMinecraft-Download-brightgreen?style=for-the-badge&logo=minecraft)](https://www.planetminecraft.com/project/lucky-pillar/)  [![MineBBS](https://img.shields.io/badge/MineBBS-Download-blue?style=for-the-badge&logo=minecraft)](https://www.minebbs.com/resources/lucky-pillar.13935/)
 
 ## Game Introduction
 
@@ -53,6 +55,11 @@
 | **Inventory Exchange** | Players' inventory items are randomly exchanged |
 | **King Game** | Winner takes all |
 | **Lucky Doll** | Obtain an enhanced totem of undying |
+| **饿啊饿啊** | 获得饥饿(40)30s | 
+| **黑** | 黑(10s) | 
+| **Speed** | 🦽冲刺冲刺🦽 | 
+| **迷你化** | 玩家尺寸-0.8 | 
+| **巨大化** | 玩家尺寸+4 | 
 
 ### Special Rules
 

@@ -6,6 +6,8 @@
 > **作者**: 一条鱼丸_  
 > **Minecraft**: 1.21.11
 
+[![Modrinth](https://img.shields.io/badge/Modrinth-Download-teal?style=for-the-badge&logo=modrinth)](https://modrinth.com/modpack/lucky-pillar)  [![CurseForge](https://img.shields.io/badge/CurseForge-Download-orange?style=for-the-badge&logo=curseforge)](https://www.curseforge.com/minecraft/modpacks/lucky-pillar)  [![PlanetMinecraft](https://img.shields.io/badge/PlanetMinecraft-Download-brightgreen?style=for-the-badge&logo=minecraft)](https://www.planetminecraft.com/project/lucky-pillar/)  [![MineBBS](https://img.shields.io/badge/MineBBS-Download-blue?style=for-the-badge&logo=minecraft)](https://www.minebbs.com/resources/lucky-pillar.13935/)
+
 ## 游戏简介
 
 **幸运之柱** 是一款基于 Minecraft 的多人游戏。玩家将随机分布在平台上高耸的柱子上，利用随机发放的物品，应对各种随机事件，击败其他玩家，存活到最后成为胜利者！
@@ -29,6 +31,7 @@
 | **玻璃** | 经典 |
 | **虚空** | 经典 |
 | **海洋** | 特殊 通过钓鱼获得物品，水有剧毒 | 
+| **月球** | 特殊 低重力 |
 
 ### 随机事件
 
@@ -54,6 +57,13 @@
 | **背包交换** | 玩家背包物品随机交换 | 
 | **国王游戏** | 成王败寇 | 
 | **幸运玩偶** | 获得一个加强版不死图腾 | 
+| **饿啊饿啊** | 获得饥饿(40)30s | 
+| **黑** | 黑(10s) | 
+| **Speed** | 🦽冲刺冲刺🦽 | 
+| **迷你化** | 玩家尺寸-0.8 | 
+| **巨大化** | 玩家尺寸+4 | 
+| **核电** | 召唤一只名为“坏了坏了”的闪电苦力怕 | 
+| **雨天** | 天气变为雨天，获得一把激流III的三叉戟 | 
 
 ### 特殊规则
 

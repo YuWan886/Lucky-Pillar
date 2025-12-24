@@ -31,7 +31,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install beet bolt mecha stewbeet
+          pip install beet bolt mecha stewbeet==2.3.13 stouputils==1.10.4
 
       - name: Get version from beet.yaml
         id: get_version

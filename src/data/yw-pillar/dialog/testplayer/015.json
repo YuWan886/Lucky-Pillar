@@ -1,6 +1,6 @@
 {
     "type": "notice",
-    "title": [ "", { "color": "#bd2fc2", "text": "幸" }, { "color": "#cf5f85", "text": "运" }, { "color": "#e28e47", "text": "之" }, { "color": "#f4bd0a", "text": "柱" }, { "text": " | 测试人员" } ],
+    "title": [ "", { "color": "#bd2fc2", "text": "幸" }, { "color": "#cf5f85", "text": "运" }, { "color": "#e28e47", "text": "之" }, { "color": "#f4bd0a", "text": "柱" }, { "text": " | 测试人员","color": "light_purple" } ],
     "body": [
         {
             "type": "plain_message",

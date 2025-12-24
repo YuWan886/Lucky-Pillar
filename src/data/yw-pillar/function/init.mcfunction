@@ -30,6 +30,7 @@ team modify Spectator prefix {text:"[\ud83d\udc41]",color:"gray"}
 team add InGame {text:"⚔"}
 team modify InGame color green
 team modify InGame prefix {text:"[⚔]",color:"green"}
+team modify InGame seeFriendlyInvisibles false
 team add Out {text:"☠"}
 team modify Out color red
 team modify Out prefix {text:"[☠]",color:"red"}
