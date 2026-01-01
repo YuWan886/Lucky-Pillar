@@ -1,6 +1,6 @@
 {
     "menu.game": "\uE000",
-    "container.crafting": "\uDAFF\uDFA1§f\uE001",
+    "container.crafting": "\uDAFF\uDFA1\u00a7f\uE001",
     "multiplayer.player.joined": "\u00a7r\u00a76\u00a7l[Tips]\u00a7r\u00a77\u00a7l \u00a7r\u00a72+ %s",
     "multiplayer.player.left": "\u00a7r\u00a76\u00a7l[Tips]\u00a7r\u00a77\u00a7l \u00a7r\u00a74- %s",
     "menu.options": "\u00a7r\u00a7a\u00a7l\u00a7nOptions",

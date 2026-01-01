@@ -1,0 +1,1 @@
+give @a stick[custom_name={text:"汤圆",color:"gold",bold:true,italic:false},item_model="yw-pillar:tangyuan",food={can_always_eat:true,nutrition:20,saturation:20},consumable={animation:"eat",on_consume_effects:[{type:"apply_effects",effects:[{id:"luck",duration:-1},{id:"saturation",duration:1200}]}]}] 1

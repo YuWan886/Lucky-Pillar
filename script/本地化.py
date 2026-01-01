@@ -53,6 +53,8 @@ async def traverse_and_replace_texts(
 
                     # 写入标准JSON编码，并处理私有使用区域字符
                     json_str = json.dumps(new_data, ensure_ascii=False, indent=4)
+                    # 保留\u00a7，将§转换回\u00a7
+                    json_str = json_str.replace("§", "\\u00a7")
                     with open(file_path, "w", encoding="utf-8") as f:
                         f.write(json_str)
 
@@ -68,6 +70,8 @@ async def traverse_and_replace_texts(
     output_file_path = os.path.join(script_dir, output_file_name)
 
     json_str = json.dumps(translations, ensure_ascii=False, indent=4)
+    # 保留\u00a7，将§转换回\u00a7
+    json_str = json_str.replace("§", "\\u00a7")
     with open(output_file_path, "w", encoding="utf-8", errors="replace") as out_file:
         out_file.write(json_str)
 
@@ -186,8 +190,12 @@ def extract_quoted_text(text, start_pos, quote_char):
             if next_char == "u" and i + 5 < len(text):
                 try:
                     hex_code = text[i + 2 : i + 6]
-                    unicode_char = chr(int(hex_code, 16))
-                    result.append(unicode_char)
+                    # 保留\u00a7不要转义
+                    if hex_code.lower() == "00a7":
+                        result.append("\u00a7")
+                    else:
+                        unicode_char = chr(int(hex_code, 16))
+                        result.append(unicode_char)
                     i += 6
                 except (ValueError, OverflowError):
                     result.append(next_char)
@@ -356,6 +364,8 @@ async def localize_mcfunction(directory, translations, output_file_name="zh_cn.j
 
     if translations:
         json_str = json.dumps(translations, ensure_ascii=False, indent=4)
+        # 保留\u00a7，将§转换回\u00a7
+        json_str = json_str.replace("§", "\\u00a7")
         with open(
             output_file_path, "w", encoding="utf-8", errors="replace"
         ) as out_file:

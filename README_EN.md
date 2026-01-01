@@ -75,7 +75,7 @@
 | **My Partner** | Obtain a fox that provides strength and health regeneration while alive |
 | **One-Hit Kill** | Player attack damage becomes 40 |
 | **Inventory Exchange** | Random events are fixed to Inventory Exchange |
-| **I sea you** | Player gains invisibility, and after the event ends, gains 5 seconds of glowing |
+| **I sea you** | Player gains Invisibility, gains 5s Glowing after event |
 
 ### Game Mechanics
 
@@ -96,7 +96,7 @@
 
 ```properties
 difficulty=hard
-motd=§r§c幸§r§c运§r§d之§r§5柱§rv0.1.6-Beta§r\n§2作者：§r§b§l§n一条鱼丸_
+motd=§r§c幸§r§c运§r§d之§r§5柱§rv0.1.6§r\n§2作者：§r§b§l§n一条鱼丸_
 resource-pack=https://github.com/YuWan886/YuWan-Server/releases/download/pack1/1.21.11-Lucky-Pillar.zip
 spawn-protection=0
 ```

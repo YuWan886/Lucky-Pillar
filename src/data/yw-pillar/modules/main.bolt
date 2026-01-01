@@ -15,7 +15,7 @@ function ./game/event/3_dragon:
      execute at @r[tag=ingame,tag=!out] run summon ender_dragon 0 100 0 {Tags:["event.3_dragon"]}
      data modify entity @e[type=ender_dragon,limit=1] DragonPhase set value 8
 function ./game/event/4_wither:
-     event_template("凋灵","red","§kxxxxxx")
+     event_template("凋灵","red","\u00a7kxxxxxx")
      execute at @r[tag=ingame,tag=!out] run summon wither 0 70 0 {Tags:["event.4_wither"]}
 function ./game/event/5_fly:
      event_template("FLY","blue","\u00a7r\u00a7b自由的风")
@@ -74,7 +74,7 @@ function ./game/event/20_black:
      title @a times 10t 9s 10t
      title @a[tag=ingame,tag=!out] title "\uE005"
 function ./game/event/21_speed:
-     event_template("Speed","aqua","§b♿冲刺冲刺♿")
+     event_template("Speed","aqua","\u00a7b♿冲刺冲刺♿")
      execute as @a[tag=ingame,tag=!out] run attribute @s movement_speed modifier add yw-pillar:event.speed 0.2 add_value
 function ./game/event/22_mini:
      event_template("迷你化","#ff023d","> <")
@@ -100,19 +100,19 @@ function ./game/event/26_greedy_slime:
 from ./lib/rule import rule_template
 
 function ./game/rule/1_small_cute:
-     rule_template("小小的也很可爱❤","#f90fce",-7273689,"玩家尺寸缩小为原来的 §l1/3")
+     rule_template("小小的也很可爱❤","#f90fce",-7273689,"玩家尺寸缩小为原来的 \u00a7l1/3")
      execute as @a[tag=ingame,tag=!out] run attribute @s scale base set 0.33
 function ./game/rule/2_big:
-     rule_template("大！大！大！","gold",-38896125,"玩家尺寸增大为原来的 §l3/2")
+     rule_template("大！大！大！","gold",-38896125,"玩家尺寸增大为原来的 \u00a7l3/2")
      execute as @a[tag=ingame,tag=!out] run attribute @s scale base set 1.5
 function ./game/rule/3_my_partner/tip:
-     rule_template("我的伙伴","blue",-48357795,"获得一只 §l狐狸\n  狐狸存活时,给玩家提供力量和生命回复")
+     rule_template("我的伙伴","blue",-48357795,"获得一只 \u00a7l狐狸\n  狐狸存活时,给玩家提供力量和生命回复")
      execute as @a[tag=ingame,tag=!out] run function ./utils/rule/fox_give with entity @s
 function ./game/rule/4_punch:
-     rule_template("一击必杀！","red",-41089492,"玩家攻击伤害变成 §l40")
+     rule_template("一击必杀！","red",-41089492,"玩家攻击伤害变成 \u00a7l40")
      execute as @a[tag=ingame,tag=!out] run attribute @s attack_damage base set 40
 function ./game/rule/5_inv_exchange:
-     rule_template("背包交换","green",-11832829,"随机事件固定为 §l背包交换")
+     rule_template("背包交换","green",-11832829,"随机事件固定为 \u00a7l背包交换")
 function ./game/rule/6_i_sea_you:
      rule_template("背包交换","white",-6287344,"\u00a7r玩家获得 \u00a7r\u00a73\u00a7l隐身\u00a7r,事件结束后获得 \u00a7r\u00a7l5s \u00a7r\u00a7f\u00a7l发光")
 

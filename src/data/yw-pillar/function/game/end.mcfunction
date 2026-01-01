@@ -13,6 +13,13 @@ scoreboard players set #Game EventID 0
 scoreboard players reset * var
 scoreboard objectives remove KilledCheck
 
+data modify storage yw-pillar:settings game.event_name set value ''
+function yw-pillar:game/pillars/reset_1
+function yw-pillar:lobby/entity
+execute as @a run function yw-pillar:utils/player/reset/all
+function yw-pillar:game/sidebar/lobby
+schedule clear yw-pillar:schedule/1s
+
 kill @a[tag=ingame,tag=!out]
 tag @a remove out
 tag @a remove ingame
@@ -25,14 +32,6 @@ effect clear @a
 gamemode adventure @a
 execute in overworld run tp @a 100 3 100
 execute in overworld run spawnpoint @a 100 3 100
-
-function yw-pillar:game/pillars/reset_1
-function yw-pillar:lobby/entity
-execute as @a run function yw-pillar:utils/player/reset/all
-function yw-pillar:game/sidebar/lobby
-schedule clear yw-pillar:schedule/1s
-
-data modify storage yw-pillar:settings game.event_name set value ''
 
 time set day
 worldborder set 114514

@@ -17,7 +17,7 @@ fill -25 101 -25 25 110 25 air
 
 kill @e[type=!player,tag=]
 kill @e[type=!player,tag=]
-kill @e[tag=bruce] 
-kill @e[tag=rule.3_my_partner]
+kill @e[type=wolf,tag=bruce] 
+kill @e[type=fox,tag=rule.3_my_partner]
 
 function yw-pillar:game/event/kill_mob

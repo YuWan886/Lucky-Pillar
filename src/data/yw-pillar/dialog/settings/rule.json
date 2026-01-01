@@ -43,7 +43,7 @@
                 "bold": true
             },
             "tooltip": {
-                "text": "玩家尺寸缩小为原来的 §l1/3"
+                "text": "玩家尺寸缩小为原来的 \u00a7l1/3"
             },
             "action": {
                 "type": "run_command",
@@ -58,7 +58,7 @@
                 "bold": true
             },
             "tooltip": {
-                "text": "玩家尺寸增大为原来的 §l3/2"
+                "text": "玩家尺寸增大为原来的 \u00a7l3/2"
             },
             "action": {
                 "type": "run_command",
@@ -73,7 +73,7 @@
                 "bold": true
             },
             "tooltip": {
-                "text": "获得一只 §l狐狸\n狐狸存活时,给玩家提供力量和生命回复"
+                "text": "获得一只 \u00a7l狐狸\n狐狸存活时,给玩家提供力量和生命回复"
             },
             "action": {
                 "type": "run_command",
@@ -88,7 +88,7 @@
                 "bold": true
             },
             "tooltip": {
-                "text": "玩家攻击伤害变成 §l40"
+                "text": "玩家攻击伤害变成 \u00a7l40"
             },
             "action": {
                 "type": "run_command",
@@ -103,7 +103,7 @@
                 "bold": true
             },
             "tooltip": {
-                "text": "随机事件固定为 §l背包交换"
+                "text": "随机事件固定为 \u00a7l背包交换"
             },
             "action": {
                 "type": "run_command",
