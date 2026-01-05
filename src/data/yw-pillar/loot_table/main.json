@@ -6,7 +6,7 @@
                 {
                     "type": "loot_table",
                     "value": "yw-pillar:all_item",
-                    "weight": 96
+                    "weight": 91
                 },
                 {
                     "type": "loot_table",
@@ -22,6 +22,11 @@
                     "type": "loot_table",
                     "value": "yw-pillar:enchanted_book",
                     "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "value": "yw-pillar:mod_item",
+                    "weight": 5
                 }
             ]
         }

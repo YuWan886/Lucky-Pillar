@@ -1,0 +1,14 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "tag",
+                    "name": "yw-pillar:mod_item",
+                    "expand": true
+                }
+            ]
+        }
+    ]
+}

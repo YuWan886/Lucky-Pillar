@@ -69,6 +69,7 @@ scoreboard objectives setdisplay list HP
     scoreboard objectives modify nametag displayname ''
 # 道具
     scoreboard objectives add Item.clock_using_time dummy
+    scoreboard objectives add Enchant.wind_brust_plus_cooldown dummy
 
 ## Utils
 scoreboard objectives add Pos.X dummy

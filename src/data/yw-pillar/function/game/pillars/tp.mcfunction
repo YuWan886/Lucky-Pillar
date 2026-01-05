@@ -12,4 +12,9 @@ execute if score #Game MapNumber matches 201 run function yw-pillar:game/pillars
 # 月球
 execute if score #Game MapNumber matches 202 run function yw-pillar:game/pillars/moon/tp with storage yw-pillar:settings game
 
+execute as @a at @s run spawnpoint @s ~ ~ ~
+worldborder center 0 0
+execute if score #Game PlayerCount.Total matches ..8 run worldborder set 40
+execute if score #Game PlayerCount.Total matches 9.. run worldborder set 50
+
 execute as @a[tag=spectator] run tp @s @r[tag=ingame]

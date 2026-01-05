@@ -1,0 +1,6 @@
+{
+    "parent": "item/iron_sword",
+    "textures": {
+        "layer0": "yw-pillar:item/history/iron_sword"
+    }
+}

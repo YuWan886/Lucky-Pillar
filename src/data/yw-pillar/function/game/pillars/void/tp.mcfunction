@@ -1,5 +1,2 @@
 $function yw-pillar:game/pillars/void/$(player_count)
-worldborder center 0 0
-execute if score #Game PlayerCount.Total matches ..8 run worldborder set 40
-execute if score #Game PlayerCount.Total matches 9.. run worldborder set 50
 fillbiome 25 -10 25 -25 100 -25 the_void

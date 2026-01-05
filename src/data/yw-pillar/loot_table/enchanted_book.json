@@ -12,16 +12,7 @@
                         },
                         {
                             "function": "set_lore",
-                            "lore": [
-                                {
-                                    "text": "附魔书放置在主手，需要附魔的物品放置在副手",
-                                    "color": "gray"
-                                },
-                                {
-                                    "text": "右键进行附魔",
-                                    "color": "gray"
-                                }
-                            ],
+                            "lore": [[{"color":"gray","text":"附魔书放置在"},{"color":"gold","text":"主手"},{"color":"gray","text":"，需要附魔的物品放置在"},{"color":"gold","text":"副手"}],[{"color":"gold","text":"右键"},{"color":"gray","text":"进行附魔"}]],
                             "mode": "append"
                         },
                                                 {

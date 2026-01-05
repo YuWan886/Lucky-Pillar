@@ -1,0 +1,25 @@
+{
+    "criteria": {
+        "nether_star": {
+            "trigger": "impossible"
+        }
+    },
+    "parent": "yw-pillar:main/item/root",
+    "display": {
+        "title": {
+            "text": "君临天下",
+            "color": "gold"
+        },
+        "description": {
+            "text": "",
+            "color": "gray",
+            "italic": true
+        },
+        "icon": {
+            "id": "nether_star",
+            "components": {
+                "enchantment_glint_override": true
+            }
+        }
+    }
+}

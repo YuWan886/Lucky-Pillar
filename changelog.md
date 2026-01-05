@@ -1,3 +1,25 @@
+# 0.1.7
+
+## Added
+
+- mod兼容：所有附魔(应该)、[Farmer's Delight](https://modrinth.com/mod/7vxePowz)、[Mutant Monsters](https://modrinth.com/mod/derP0ten)
+- 事件：
+    - 随机交换：玩家随机交换位置 
+- 物品：
+    - 铁剑(1.7.10)：无攻击冷却
+    - 让你飞起来：重锤，右键获得一个向上的动量
+- 规则：
+    - 虚空的仁慈：掉落虚空时将玩家向上传送60格
+
+## Changed
+
+- **下届之星**可以吃了
+- 清除了一些无用物品，比如，草
+
+## Fixed
+
+- 修复玩家属性重置不了的bug
+
 ## 0.1.6
 
 ### Added

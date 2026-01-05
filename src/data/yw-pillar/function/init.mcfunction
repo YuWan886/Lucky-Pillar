@@ -4,7 +4,7 @@ scoreboard players set #Game GameMode 1
 scoreboard players set #Game MapNumber 101
 
 scoreboard players set #Timer LootTimer 5
-scoreboard players set #Timer EventTimer 60
+scoreboard players set #Timer EventTimer 30
 scoreboard players set #Timer BorderTimer 45
 scoreboard players set #Timer BeginTimer 5
 
@@ -14,7 +14,7 @@ scoreboard players set #Timer BeginTimer 5
 data modify storage yw-pillar:settings time set value \
 {\
     loot_time:5,\
-    event_time:60,\
+    event_time:30,\
     border_time:45,\
     begin_time:5\
 }

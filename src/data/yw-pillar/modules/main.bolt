@@ -52,7 +52,7 @@ function ./game/event/14_creeper:
      execute as @a[tag=ingame,tag=!out] at @s run summon creeper ~ ~0.5 ~
      execute as @a[tag=ingame,tag=!out] as @s if predicate {condition:"random_chance",chance:0.1} run return run data modify entity @e[type=creeper,distance=..1,limit=1] powered set value true
 function ./game/event/15_touch:
-     event_template("摸摸","#e315c8","OvO")
+     event_template("摸摸","#e315c8","摸得更远")
      execute as @a[tag=ingame,tag=!out] run attribute @s entity_interaction_range modifier add yw-pillar:event.pat_pat 10 add_value
 function ./game/event/16_inv_exchange:
      event_template("背包交换","green","这何尝不是一种NTR")
@@ -95,28 +95,33 @@ function ./game/event/26_greedy_slime:
      event_template("贪吃的史莱姆","green","嚼嚼嚼~")
      scoreboard players set $SlimeSize math 0
      execute at @r[tag=ingame,tag=!out] run summon slime 0 66 0 {CustomName:{text:"大嘴",color:"red",bold:true},Tags:["event.26_greedy_slime"],Size:1,Glowing:true,attributes:[{id:"max_health",base:10}],active_effects:[{id:"slow_falling",duration:600}]}
+function ./game/event/27_location_exchange:
+     event_template("位置交换","yellow","给我干哪来了")
+     function yw-pillar:game/event/27_location_exchange/run
 
 # 规则
 from ./lib/rule import rule_template
 
 function ./game/rule/1_small_cute:
-     rule_template("小小的也很可爱❤","#f90fce",-7273689,"玩家尺寸缩小为原来的 \u00a7l1/3")
+     rule_template("小小的也很可爱❤","#f90fce",-7273689,"玩家尺寸缩小为原来的\u00a7l1/3")
      execute as @a[tag=ingame,tag=!out] run attribute @s scale base set 0.33
 function ./game/rule/2_big:
-     rule_template("大！大！大！","gold",-38896125,"玩家尺寸增大为原来的 \u00a7l3/2")
+     rule_template("大！大！大！","gold",-38896125,"玩家尺寸增大为原来的\u00a7l3/2")
      execute as @a[tag=ingame,tag=!out] run attribute @s scale base set 1.5
 function ./game/rule/3_my_partner/tip:
-     rule_template("我的伙伴","blue",-48357795,"获得一只 \u00a7l狐狸\n  狐狸存活时,给玩家提供力量和生命回复")
+     rule_template("我的伙伴","blue",-48357795,"获得一只\u00a7l狐狸\n狐狸存活时,给玩家提供力量和生命回复")
      execute as @a[tag=ingame,tag=!out] run function ./utils/rule/fox_give with entity @s
 function ./game/rule/4_punch:
-     rule_template("一击必杀！","red",-41089492,"玩家攻击伤害变成 \u00a7l40")
+     rule_template("一击必杀！","red",-41089492,"玩家攻击伤害变成\u00a7l40")
      execute as @a[tag=ingame,tag=!out] run attribute @s attack_damage base set 40
 function ./game/rule/5_inv_exchange:
-     rule_template("背包交换","green",-11832829,"随机事件固定为 \u00a7l背包交换")
+     rule_template("背包交换","green",-11832829,"随机事件固定为\u00a7l背包交换")
 function ./game/rule/6_i_sea_you:
-     rule_template("背包交换","white",-6287344,"\u00a7r玩家获得 \u00a7r\u00a73\u00a7l隐身\u00a7r,事件结束后获得 \u00a7r\u00a7l5s \u00a7r\u00a7f\u00a7l发光")
+     rule_template("I sea you","white",-6287344,"玩家获得\u00a7r\u00a73\u00a7l隐身\u00a7r,事件结束后获得\u00a7r\u00a7l5s\u00a7r\u00a7f\u00a7l发光")
+function ./game/rule/7_void_mercy:
+     rule_template("虚空的仁慈","dark_purple",-11250604,"掉落虚空将被向上传送\u00a7r\u00a7l60\u00a7r格")
 
-#柱 
+# 柱 
 from ./lib/pillar import pillar_tempalte
 
 pillar_tempalte("wool","bedrock")

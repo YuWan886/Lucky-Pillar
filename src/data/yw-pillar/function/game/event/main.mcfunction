@@ -1,11 +1,11 @@
 function yw-pillar:game/event/settle
 function yw-pillar:game/event/kill_mob
-function yw-pillar:utils/player/reset/event
+function yw-pillar:game/event/clear_attribute
 
 scoreboard players set #Timer EventDura.Sec 0
 scoreboard players set #Timer EventDura.Tick 0
-execute store result score #Game EventID run random value 1..30
-# scoreboard players set #Game EventID 26
+execute store result score #Game EventID run random value 1..35
+# scoreboard players set #Game EventID 27
 function yw-pillar:game/rule/modify_event
 
 execute if score #Game EventID matches 1 run function yw-pillar:game/event/1_night_fall
@@ -34,9 +34,10 @@ execute if score #Game EventID matches 23 run function yw-pillar:game/event/23_h
 execute if score #Game EventID matches 24 run function yw-pillar:game/event/24_nuclear
 execute if score #Game EventID matches 25 run function yw-pillar:game/event/25_rainy_day
 execute if score #Game EventID matches 26 run function yw-pillar:game/event/26_greedy_slime
+execute if score #Game EventID matches 27 run function yw-pillar:game/event/27_location_exchange
 
-execute if score #Game EventID matches 27.. run tellraw @a ["",{text:"[Tips]",color:"gold",bold:true},{text:"无事发生...",color:"green"}]
+execute if score #Game EventID matches 28.. run tellraw @a ["",{text:"[Tips]",color:"gold",bold:true},{text:"无事发生...",color:"green"}]
 execute store result score #Timer EventTimer run data get storage yw-pillar:settings time.event_time
 
-execute if score #Game EventID matches 27.. run return fail
+execute if score #Game EventID matches 28.. run return fail
 function yw-pillar:game/log/temp/event

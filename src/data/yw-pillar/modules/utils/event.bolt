@@ -1,4 +1,9 @@
 # 背包交换
 append function yw-pillar:game/event/16_inv_exchange/run:
-    for i in range(2,13):
+    for i in range(2,25):
         execute if score #Game PlayerCount.Alive matches i run function f"yw-pillar:utils/event/inv_exchange/random_num/{i}"
+
+# 位置交换
+append function yw-pillar:game/event/27_location_exchange/run:
+    for i in range(2,25):
+        execute if score #Game PlayerCount.Alive matches i run function f"yw-pillar:utils/event/location_exchange/random_num/{i}"

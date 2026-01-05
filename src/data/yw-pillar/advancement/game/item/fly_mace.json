@@ -1,0 +1,29 @@
+{
+    "criteria": {
+        "fly_mace_use": {
+            "trigger": "using_item",
+            "conditions": {
+                "item": {
+                    "items": "mace",
+                    "predicates": {
+                        "custom_data": {
+                            "item": "fly_mace"
+                        }
+                    }
+                },
+                "player": [
+                    {
+                        "condition": "entity_scores",
+                        "entity": "this",
+                        "scores": {
+                            "Enchant.wind_brust_plus_cooldown": 0
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "yw-pillar:utils/game/item/fly_mace/use"
+    }
+}

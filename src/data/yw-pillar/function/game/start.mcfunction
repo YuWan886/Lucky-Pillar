@@ -20,7 +20,6 @@ gamemode adventure @a[tag=ready]
 tag @a[tag=ready] add ingame
 team join InGame @a[tag=ready]
 
-execute as @a run function yw-pillar:utils/player/reset/all
 weather clear
 dialog clear @a
 clear @a
@@ -33,6 +32,7 @@ execute store result score #Timer EventTimer run data get storage yw-pillar:sett
 execute store result score #Timer BorderTimer run data get storage yw-pillar:settings time.border_time
 execute store result score #Timer BeginTimer run data get storage yw-pillar:settings time.begin_time
 
+execute as @a run function yw-pillar:utils/player/reset/all
 function yw-pillar:utils/player/number/main
 function yw-pillar:game/pillars/tp
 function yw-pillar:game/sidebar/ingame

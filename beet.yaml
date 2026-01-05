@@ -3,7 +3,7 @@ name: "幸运之柱"
 description: ""
 author: "一条鱼丸_"
 
-version: "0.1.6"
+version: "0.1.7"
 minecraft: "1.21.11"
 
 directory: "."
@@ -30,7 +30,9 @@ pipeline:
     - mecha
     # - script.try
     - script.event.inv_exchange
+    - script.event.location_exchange
     - script.insert
+    - script.mod_tag
     - script.custom_function_headers
     - stewbeet.plugins.auto.headers
     - beet.contrib.minify_json

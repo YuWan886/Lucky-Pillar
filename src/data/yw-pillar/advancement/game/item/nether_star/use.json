@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "nether_star_use": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "nether_star",
+                    "components": {
+                        "custom_data": {
+                            "item":"nether_star"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "yw-pillar:utils/game/item/nether_star/use"
+    }
+}

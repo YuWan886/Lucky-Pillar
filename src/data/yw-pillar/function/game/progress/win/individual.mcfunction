@@ -9,4 +9,5 @@ scoreboard players add @a[tag=ingame] CompletedCount 1
 function yw-pillar:game/log/temp/win
 function yw-pillar:utils/player/win_count
 scoreboard players set #Game GameStatus 0
+function yw-pillar:schedule/clear
 schedule function yw-pillar:game/end 3s

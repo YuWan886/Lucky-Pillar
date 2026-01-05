@@ -19,7 +19,8 @@
             "text": "柱"
         },
         {
-            "text": " | 地图设置"
+            "text": " | 地图设置",
+            "color": "gold"
         }
     ],
     "columns": 2,

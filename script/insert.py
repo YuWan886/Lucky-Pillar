@@ -27,3 +27,5 @@ data modify storage yw-pillar:system info set value \
     function.lines.insert(9, insert_thing)
 
     ctx.data.filter["block"].append({"namespace": "minecraft","path":"advancement"})
+    ctx.data.filter["block"].append({"namespace": "farmersdelight","path":"advancement"})
+    ctx.data.filter["block"].append({"namespace": "mutantmonsters","path":"advancement"})

@@ -15,12 +15,11 @@ scoreboard objectives remove KilledCheck
 
 data modify storage yw-pillar:settings game.event_name set value ''
 function yw-pillar:game/pillars/reset_1
-function yw-pillar:lobby/entity
+execute in overworld run function yw-pillar:lobby/entity
 execute as @a run function yw-pillar:utils/player/reset/all
 function yw-pillar:game/sidebar/lobby
-schedule clear yw-pillar:schedule/1s
+function yw-pillar:schedule/clear
 
-kill @a[tag=ingame,tag=!out]
 tag @a remove out
 tag @a remove ingame
 tag @a[tag=ready] remove spectator
@@ -32,12 +31,6 @@ effect clear @a
 gamemode adventure @a
 execute in overworld run tp @a 100 3 100
 execute in overworld run spawnpoint @a 100 3 100
-
-time set day
-worldborder set 114514
-
-advancement revoke @a only yw-pillar:game/item/bow
-advancement revoke @a only yw-pillar:game/item/crossbow
 
 # 节日
 function yw-pillar:utils/festival/all

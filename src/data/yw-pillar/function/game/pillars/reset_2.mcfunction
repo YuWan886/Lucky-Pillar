@@ -16,7 +16,7 @@ fill -25 91 -25 25 100 25 air
 fill -25 101 -25 25 110 25 air
 
 kill @e[type=!player,tag=]
-kill @e[type=!player,tag=]
+kill @e[type=item]
 kill @e[type=wolf,tag=bruce] 
 kill @e[type=fox,tag=rule.3_my_partner]
 

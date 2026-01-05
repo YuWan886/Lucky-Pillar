@@ -18,7 +18,7 @@
             "color": "#f4bd0a",
             "text": "柱"
         },
-        {"text":" | 时间设置"}
+        {"text":" | 时间设置","color": "gold"}
     ],
     "body": [],
     "inputs": [
@@ -43,7 +43,7 @@
             "start": 1,
             "end": 101,
             "step": 1,
-            "initial": 60,
+            "initial": 30,
             "label_format": "%1$s：%2$ss"
         },
         {
