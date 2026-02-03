@@ -1,0 +1,34 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "yw-pillar:all_item",
+                    "weight": 91
+                },
+                {
+                    "type": "loot_table",
+                    "value": "yw-pillar:potion",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "value": "yw-pillar:special/all",
+                    "weight": 2
+                },
+                {
+                    "type": "loot_table",
+                    "value": "yw-pillar:enchanted_book",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "value": "yw-pillar:mod_item",
+                    "weight": 5
+                }
+            ]
+        }
+    ]
+}

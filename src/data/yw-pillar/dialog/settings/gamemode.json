@@ -42,6 +42,15 @@
                 "type": "run_command",
                 "command": "trigger TriggerSetting.GameMode set 2"
             }
+        },
+        {
+            "label": {
+                "text": "红蓝对抗"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger TriggerSetting.GameMode set 3"
+            }
         }
     ],
     "exit_action": {

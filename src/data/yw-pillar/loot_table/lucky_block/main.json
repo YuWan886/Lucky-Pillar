@@ -1,0 +1,26 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "value": "yw-pillar:main",
+                    "weight": 60
+                },
+                {
+                    "type": "item",
+                    "name": "paper",
+                    "functions": [
+                        {
+                            "function": "set_custom_data",
+                            "tag": {
+                                "item":"loot_chest"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -19,7 +19,7 @@ data modify storage yw-pillar:settings game set value \
 }}
 data modify storage yw-pillar:system info set value \
 {{\
-    version:"{ctx.project_version}",\
+    version:"v{ctx.project_version}",\
     mc_version:"{ctx.minecraft_version}",\
     release_time:"{time.strftime("%Y.%m.%d")}"\
 }}

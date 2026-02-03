@@ -5,7 +5,7 @@ execute store result score @s YanPai run random value 1..8
 
 # 牛肉
 execute if score @s YanPai matches 1 run tellraw @a ["",{text:"[Tips]",color:"gold",bold:true},{selector:"@s",bold:true},{text:"验出了",color:"yellow"},{sprite:"item/cooked_beef",atlas:"items",object:"atlas"},"x5"]
-execute if score @s YanPai matches 1 run give @s beef 5
+execute if score @s YanPai matches 1 run give @s cooked_beef 5
 # 铁剑
 execute if score @s YanPai matches 2 run tellraw @a ["",{text:"[Tips]",color:"gold",bold:true},{selector:"@s",bold:true},{text:"验出了",color:"yellow"},{sprite:"item/iron_sword",atlas:"items",object:"atlas"},"x1"]
 execute if score @s YanPai matches 2 run give @s iron_sword 1

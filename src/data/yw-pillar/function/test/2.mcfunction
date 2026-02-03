@@ -1,1 +1,0 @@
-give @a minecraft:pig_spawn_egg[custom_name={text:"小飞船",color:"gold",bold:1b,italic:0b},lore=[{text:"生成一艘会飞的船",color:"gray"},[{color:"gold",text:"45s"},{color:"gray",text:"后消失"}]],entity_data={id:"oak_boat",CustomName:{text:"小飞船",color:"gold",bold:1b,italic:0b},Tags:["fly_boat"]},custom_data={item:"fly_boat"}]

@@ -1,0 +1,1 @@
+$fill -20 $(lava_hight_clear) -20 20 $(lava_hight_clear) 20 air replace lava

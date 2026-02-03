@@ -6,7 +6,7 @@ execute if score #Game MapNumber matches 201 run function yw-pillar:game/pillars
 execute if score #Game MapNumber matches 202 run function yw-pillar:game/pillars/moon/ingame
 
 # 随机事件
-execute if score #Timer EventDura.Sec matches 1.. run function yw-pillar:game/event/duration_sec
+function yw-pillar:game/event/duration_sec
 # 侧边栏
 function yw-pillar:game/sidebar/ingame
 # 计时

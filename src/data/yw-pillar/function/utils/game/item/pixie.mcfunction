@@ -1,3 +1,3 @@
 advancement revoke @s only yw-pillar:game/item/pixie
 
-playsound yw-pillar:capixie master @a ~ ~ ~ 3 1
+playsound yw-pillar:capixie master @a ~ ~ ~

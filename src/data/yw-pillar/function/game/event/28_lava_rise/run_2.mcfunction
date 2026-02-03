@@ -1,0 +1,2 @@
+$execute if score #Game PlayerCount.Total matches ..8 run fill -16 $(lava_hight) -16 16 $(lava_hight) 16 lava replace air
+$execute if score #Game PlayerCount.Total matches 9.. run fill -20 $(lava_hight) -20 20 $(lava_hight) 20 lava replace air

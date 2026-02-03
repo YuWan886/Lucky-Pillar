@@ -1,4 +1,6 @@
-## Todo
+## TODO
+- 红蓝对抗模式
+- 幸运方块地图
 
 ## tag&team
 游戏中
@@ -15,6 +17,12 @@
 
 debug
 - tag: debug
+
+## 游戏模式
+
+- [设置-函数](./src/data/yw-pillar/function/settings/gamemode.mcfunction)  [设置-对话框](./src/data/yw-pillar/dialog/settings/gamemode.json)
+- [计算player_count选图](./src/data/yw-pillar/function/utils/player/count.mcfunction)
+- [队伍分配](./src/data/yw-pillar/function/utils/player/number/main.mcfunction)
 
 ## 地图
  

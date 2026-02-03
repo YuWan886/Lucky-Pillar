@@ -37,4 +37,4 @@ def beet_default(ctx: Context):
     tag_content: JsonDict = {
         "values": [{"id": item_id, "required": False} for item_id in mod_items]
     }
-    ctx.data.item_tags["yw-pillar:mod_item"] = TagFile(tag_content)
+    ctx.data.item_tags["yw-pillar:mod_item"] = TagFile(tag_content) # type: ignore

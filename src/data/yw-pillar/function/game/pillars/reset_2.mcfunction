@@ -1,3 +1,5 @@
+fill -25 -71 -25 25 -60 25 air
+fill -25 -61 -25 25 -50 25 air
 fill -25 -51 -25 25 -40 25 air
 fill -25 -41 -25 25 -30 25 air
 fill -25 -31 -25 25 -20 25 air
@@ -19,5 +21,7 @@ kill @e[type=!player,tag=]
 kill @e[type=item]
 kill @e[type=wolf,tag=bruce] 
 kill @e[type=fox,tag=rule.3_my_partner]
+
+execute as @e[tag=aj.item_hypnosis_app.root] run function animated_java:item_hypnosis_app/remove/this
 
 function yw-pillar:game/event/kill_mob

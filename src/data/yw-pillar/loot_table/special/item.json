@@ -602,7 +602,35 @@
                             "function": "set_count",
                             "count": {
                                 "min": 1,
-                                "max": 8
+                                "max": 6
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "stick",
+                    "functions": [
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "custom_name": {
+                                    "text": "催眠 App",
+                                    "color": "light_purple",
+                                    "bold": true,
+                                    "italic": false
+                                },
+                                "lore": [["",{"color":"gray","text":"右键随机"},{"color":"gold","text":"“催眠”"},{"color":"gray","text":"一名玩家(不包括自己)"}],["",{"color":"light_purple","text":"催眠："},{"color":"aqua","text":"缓慢I "},{"color":"gold","text":"10s"},{"color":"aqua","text":",挖掘疲劳III "},{"color":"gold","text":"15s"}]],
+                                "consumable": {
+                                    "animation": "block",
+                                    "consume_seconds": 0.01,
+                                    "has_consume_particles": false,
+                                    "sound": {"sound_id": ""}
+                                },
+                                "item_model": "yw-pillar:special/hypnosis_app",
+                                "custom_data": {
+                                    "item":"hypnosis_app"
+                                }
                             }
                         }
                     ]

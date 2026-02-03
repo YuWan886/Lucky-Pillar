@@ -1,7 +1,8 @@
 # 创建队伍
-append function yw-pillar:/utils/game/add_team:
+append function yw-pillar:utils/game/add_team:
         for i in range(1,13):
             team add f"Team{i}" {text:f"⚔{i}"}
             team modify f"Team{i}" color green
             team modify f"Team{i}" prefix {text:f"[⚔{i}]",color:"green"}
             team modify f"Team{i}" collisionRule pushOwnTeam
+            team modify f"Team{i}" friendlyFire false

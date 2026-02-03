@@ -55,6 +55,24 @@
             ]
         },
         {
+            "type": "bitmap",
+            "file": "yw-pillar:font/meme/die_too.png",
+            "ascent": 8,
+            "height": 64,
+            "chars": [
+                "\uE400"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "yw-pillar:font/meme/nyjk.png",
+            "ascent": 8,
+            "height": 64,
+            "chars": [
+                "\uE401"
+            ]
+        },
+        {
             "type": "space",
             "advances": {
                 "󏿬": -20,

@@ -4,7 +4,6 @@ execute as @s[tag=out] run return fail
 scoreboard players set @s DeathCheck 0
 scoreboard players add @s DeathCount 1
 
-# scoreboard players remove #Game PlayerCount.Alive 1
 scoreboard players add #Game PlayerCount.Out 1
 
 gamemode spectator @s

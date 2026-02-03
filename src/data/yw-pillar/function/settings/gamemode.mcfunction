@@ -3,12 +3,14 @@ tellraw @a ["","\n\n\n\n=-----------------------------=\n",{text:"[Tips]",color:
 # 单人
     execute if score @s TriggerSetting.GameMode matches 1 run tellraw @a ["",{text:"当前游戏模式：",color:"gold"},{nbt:"game.game_mode",storage:"yw-pillar:settings",color:"red"},"->",{text:"单人",color:"green",bold:true}]
     execute if score @s TriggerSetting.GameMode matches 1 run data modify storage yw-pillar:settings game merge value {game_mode:"单人"}
-    execute if score @s TriggerSetting.GameMode matches 1 run scoreboard players set #Game GameMode 1
 # 双人
     execute if score @s TriggerSetting.GameMode matches 2 run tellraw @a ["",{text:"当前游戏模式：",color:"gold"},{nbt:"game.game_mode",storage:"yw-pillar:settings",color:"red"},"->",{text:"双人",color:"green",bold:true}]
     execute if score @s TriggerSetting.GameMode matches 2 run data modify storage yw-pillar:settings game merge value {game_mode:"双人"}
-    execute if score @s TriggerSetting.GameMode matches 2 run scoreboard players set #Game GameMode 2
-    
+# 红蓝对抗
+    execute if score @s TriggerSetting.GameMode matches 3 run tellraw @a ["",{text:"当前游戏模式：",color:"gold"},{nbt:"game.game_mode",storage:"yw-pillar:settings",color:"red"},"->",{text:"红蓝对抗",color:"green",bold:true}]
+    execute if score @s TriggerSetting.GameMode matches 3 run data modify storage yw-pillar:settings game merge value {game_mode:"红蓝对抗"}
+
+scoreboard players operation #Game GameMode = @s TriggerSetting.GameMode
 tellraw @a "\n=-------------------------="
 
 scoreboard players set @s TriggerSetting.GameMode 0

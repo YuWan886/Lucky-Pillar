@@ -29,11 +29,11 @@ scoreboard players set %side_release_time% side 0
 
 # 显示
 scoreboard players display name %side_version% side [{text:"------- ",color:"#1bf169"},{nbt:"info.version",storage:"yw-pillar:system"},{text:" -------"}]
-scoreboard players display name %side_game_mode% side [{text:"游戏模式："},{nbt:"game.game_mode",storage:"yw-pillar:settings",color:"dark_purple",bold:true}]
-scoreboard players display name %side_playercount% side ["",{text:"游戏人数："},{score:{name:"#Game",objective:"PlayerCount.Alive"},color:"green",bold:true},"/",{score:{name:"#Game",objective:"PlayerCount.Total"},color:"gold",bold:true}]
-scoreboard players display name %side_game_time% side ["",{text:"游戏时长："},{score:{name:"#Timer",objective:"GameTime.Min"},bold:true},"m"," ",{score:{name:"#Timer",objective:"GameTime.Sec"},bold:true},"s"]
-execute if score #Game RuleID matches 1.. run scoreboard players display name %side_settings_rule% side ["",{text:"当前规则："},{nbt:"game.rule_name",storage:"yw-pillar:settings",color:"light_purple",bold:true}]
-scoreboard players display name %side_nextevent_time% side ["",{text:"下一事件："},{score:{name:"#Timer",objective:"EventTimer"},bold:true},"s"]
-scoreboard players display name %side_currentevent_name% side ["",{text:"当前事件："},{nbt:"game.event_name",storage:"yw-pillar:settings",bold:true}]
-scoreboard players display name %side_border_time% side ["",{text:"边界收缩："},{score:{name:"#Timer",objective:"BorderTimer"},bold:true},"s"]
+scoreboard players display name %side_game_mode% side ["  ",{text:"游戏模式："},{nbt:"game.game_mode",storage:"yw-pillar:settings",color:"dark_purple",bold:true}]
+scoreboard players display name %side_playercount% side ["  ",{text:"游戏人数："},{score:{name:"#Game",objective:"PlayerCount.Alive"},color:"green",bold:true},"/",{score:{name:"#Game",objective:"PlayerCount.Total"},color:"gold",bold:true}]
+scoreboard players display name %side_game_time% side ["  ",{text:"游戏时长："},{score:{name:"#Timer",objective:"GameTime.Min"},bold:true},"m"," ",{score:{name:"#Timer",objective:"GameTime.Sec"},bold:true},"s"]
+execute if score #Game RuleID matches 1.. run scoreboard players display name %side_settings_rule% side ["  ",{text:"当前规则："},{nbt:"game.rule_name",storage:"yw-pillar:settings",color:"light_purple",bold:true}]
+scoreboard players display name %side_nextevent_time% side ["  ",{text:"下一事件："},{score:{name:"#Timer",objective:"EventTimer"},bold:true},"s"]
+scoreboard players display name %side_currentevent_name% side ["  ",{text:"当前事件："},{nbt:"game.event_name",storage:"yw-pillar:settings",bold:true}]
+scoreboard players display name %side_border_time% side ["  ",{text:"边界收缩："},{score:{name:"#Timer",objective:"BorderTimer"},bold:true},"s"]
 scoreboard players display name %side_release_time% side [{text:"----- ",color:"#1bf169"},{nbt:"info.release_time",storage:"yw-pillar:system"},{text:" -----"}]

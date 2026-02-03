@@ -15,6 +15,7 @@ scoreboard objectives add PlayerCount.ReadyTeam dummy
 scoreboard objectives add PlayerCount.Total dummy
 scoreboard objectives add PlayerCount.Alive dummy
 scoreboard objectives add PlayerCount.Out dummy
+scoreboard objectives add ModInstalled dummy
 ## Time
 scoreboard objectives add BeginTimer dummy
 scoreboard objectives add EventTimer dummy
@@ -48,6 +49,7 @@ scoreboard objectives add TriggerSetting.Rule trigger
 scoreboard objectives add LeaveGame custom:leave_game
 scoreboard objectives add Music dummy
 scoreboard objectives add YanPai dummy
+scoreboard objectives add LuckyBlock dummy
 scoreboard objectives add HP health
 scoreboard objectives setdisplay list HP
 # 使用
@@ -85,6 +87,8 @@ scoreboard players set $100 math 100
 scoreboard players set $20 math 20
 scoreboard players set $2 math 2
 
+function yw-pillar:schedule/yuwan_say
+function yw-pillar:utils/mod/check_install
 execute unless score #Game Init matches 1 run function yw-pillar:init
 
 tellraw @a[tag=debug] ["",{text:"[Debug]",color:"dark_purple",bold:true},{text:"数据包重载成功！",color:"green"}]

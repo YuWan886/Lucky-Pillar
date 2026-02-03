@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "hypnosis_app": {
+            "trigger": "consume_item",
+            "conditions": {
+                "item": {
+                    "items": "stick",
+                    "predicates": {
+                        "custom_data": {
+                            "item": "hypnosis_app"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "yw-pillar:utils/game/item/hypnosis_app"
+    }
+}

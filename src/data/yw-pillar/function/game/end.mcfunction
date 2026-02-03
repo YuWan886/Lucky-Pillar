@@ -4,6 +4,7 @@ scoreboard players set #Timer EventDura.Sec 0
 scoreboard players set #Timer EventDura.Tick 0
 scoreboard players set #Timer GameTime.Min 0
 scoreboard players set #Timer GameTime.Sec 0
+scoreboard players reset #Game PlayerCount
 scoreboard players set #Game PlayerCount.Total 0
 scoreboard players set #Game PlayerCount.Alive 0
 scoreboard players set #Game PlayerCount.Out 0

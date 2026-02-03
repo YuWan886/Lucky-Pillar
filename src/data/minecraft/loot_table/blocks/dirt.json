@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:dirt"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+              "LuckyBlock": 1
+            }
+        }
+      ],
+      "entries": []
+    }
+  ],
+  "random_sequence": "minecraft:blocks/dirt"
+}

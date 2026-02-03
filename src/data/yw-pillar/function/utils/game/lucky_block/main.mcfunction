@@ -1,0 +1,1 @@
+# execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{item:"loot_chest"}}}}] run say
