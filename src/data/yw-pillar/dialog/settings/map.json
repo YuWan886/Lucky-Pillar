@@ -101,6 +101,19 @@
         },
         {
             "label": {
+                "text": "活板门",
+                "color": "#ad6f04"
+            },
+            "tooltip": {
+                "text": "经典模式"
+            },
+            "action": {
+                "type": "run_command",
+                "command": "trigger TriggerSetting.Map set 106"
+            }
+        },
+        {
+            "label": {
                 "text": "海洋",
                 "color": "blue"
             },

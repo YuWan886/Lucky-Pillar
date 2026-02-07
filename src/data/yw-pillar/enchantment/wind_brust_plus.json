@@ -1,6 +1,7 @@
 {
     "description": {
-        "text": "风爆+"
+        "text": "起飞",
+        "color": "aqua"
     },
     "effects": {
         "tick": [

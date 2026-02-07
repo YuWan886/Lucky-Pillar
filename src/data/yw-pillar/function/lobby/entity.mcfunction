@@ -22,6 +22,13 @@ summon item_display 108 2 101 {item:{id:"white_dye",components:{item_model:"yw-p
 kill @e[tag=lobby.bug]
 summon item_display 108 2 102 {item:{id:"white_dye",components:{item_model:"yw-pillar:lobby/bug"}},Tags:["lobby.bug"],Rotation:[90,0],Passengers:[{id:"interaction",Tags:["ita.bug","lobby.bug"]}]}
 
+kill @e[tag=lobby.mace]
+summon item_display 92 2 100 {item:{id:"mace",components:{enchantment_glint_override:true}},Tags:["lobby.mace"],Rotation:[90,0],Passengers:[{id:"interaction",Tags:["ita.mace","lobby.mace"]},{id:"text_display",text:{text:"右键前往PVP",color:"gold",bold:true},billboard:"center",transformation:{translation:[0f,1f,0f],left_rotation:[0f,0f,0f,1f],scale:[1f,1f,1f],right_rotation:[0f,0f,0f,1f]},Tags:["lobby.mace"]}]} 
+summon item_display 91 -18 100 {item:{id:"mace",components:{enchantment_glint_override:true}},Tags:["lobby.mace"],Rotation:[90,0],Passengers:[{id:"interaction",Tags:["ita.mace","lobby.mace"]},{id:"text_display",text:{text:"右键返回大厅",color:"gold",bold:true},billboard:"center",transformation:{translation:[0f,1f,0f],left_rotation:[0f,0f,0f,1f],scale:[1f,1f,1f],right_rotation:[0f,0f,0f,1f]},Tags:["lobby.mace"]}]} 
+
+kill @e[tag=lobby.enchant]
+summon item_display 100 -18 109 {item:{id:"enchanted_book"},Tags:["lobby.enchant"],Rotation:[180,0],Passengers:[{id:"interaction",Tags:["ita.enchant","lobby.enchant"]},{id:"text_display",text:{text:"右键抽取附魔书",color:"gold",bold:true},billboard:"center",transformation:{translation:[0f,1f,0f],left_rotation:[0f,0f,0f,1f],scale:[1f,1f,1f],right_rotation:[0f,0f,0f,1f]},Tags:["lobby.enchant"]}]} 
+
 kill @e[tag=lobby.hahaha]
 summon item_frame 100 2 92 {Item:{id:"stick",components:{custom_model_data:{strings:["hahaha"]}}},Facing:3b,Fixed:true,Invisible:true,Tags:["lobby.hahaha"]}
 

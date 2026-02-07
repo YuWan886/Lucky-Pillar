@@ -236,14 +236,14 @@
                                     {
                                         "id": "yw-pillar:long_hand_1",
                                         "type": "entity_interaction_range",
-                                        "amount": 6,
+                                        "amount": 4,
                                         "operation": "add_value",
                                         "slot": "hand"
                                     },
                                     {
                                         "id": "yw-pillar:long_hand_2",
                                         "type": "block_interaction_range",
-                                        "amount": 6,
+                                        "amount": 4,
                                         "operation": "add_value",
                                         "slot": "hand"
                                     }

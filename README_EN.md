@@ -2,7 +2,7 @@
 
 # Lucky Pillar
 
-> **Version**: 0.1.7  
+> **Version**: 0.1.8  
 > **Creator**: 一条鱼丸_  
 > **Minecraft**: 1.21.11  
 
@@ -14,11 +14,11 @@
 
 ### Core Gameplay
 
-- **Multiplayer Competition**: Supports 2-24 players competing simultaneously
+- **Multiplayer Competition**: Supports 2-∞ players competing simultaneously
 - **Random Items**: Receive different weapons and items randomly each round
 - **Dynamic Events**: Various random events triggered during gameplay
 - **Survival Challenge**: Survive on limited platforms and defeat opponents
-- **Multi-language Support:** Currently supports:简体中文、English
+- **Multi-language Support:** Currently supports:简/繁体中文、English
 
 ## Main Features
 
@@ -29,6 +29,8 @@
 | **Wool** | Classic |
 | **Nether** | Classic Dimension: The Nether |
 | **Glass** | Classic |
+| **TNT** | Classic |
+| **Trap Door** | Classic |
 | **Ocean** | Special Obtain items through fishing, water is highly toxic |
 | **Moon** | Special Low Gravity |
 
@@ -64,6 +66,7 @@
 | **Nuclear Power** | Summon a charged creeper named 'Broken Broken' |
 | **Rainy Day** | Weather changes to rain, obtain a trident with Riptide III |
 | **Greedy Slime** | Spawns a slime that increases in size by 1 for every 5 items it consumes |
+| **Location Exchange** | Random exchange of player locations |
 
 ### Special Rules
 
@@ -98,7 +101,7 @@
 
 ```properties
 difficulty=hard
-motd=§r§c幸§r§c运§r§d之§r§5柱§rv0.1.7§r\n§2作者：§r§b§l§n一条鱼丸_
+motd=§r§c幸§r§c运§r§d之§r§5柱§rv0.1.8§r\n§2作者：§r§b§l§n一条鱼丸_
 resource-pack=https://github.com/YuWan886/YuWan-Server/releases/download/pack1/1.21.11-Lucky-Pillar.zip
 spawn-protection=0
 ```

@@ -33,7 +33,7 @@ jobs:
           override: true
 
       - name: Install dependencies
-        run: pip install pyyaml beet bolt stewbeet==2.4.0 stouputils==1.15.1
+        run: pip install pyyaml beet bolt stewbeet stouputils
 
       - name: Get version from beet.yaml
         id: version

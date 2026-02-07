@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "enchant":{
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:[\"ita.enchant\",\"lobby.enchant\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "yw-pillar:lobby/enchant"
+    }
+} 

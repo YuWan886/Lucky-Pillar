@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "mace":{
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:[\"ita.mace\",\"lobby.mace\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "yw-pillar:lobby/mace"
+    }
+}

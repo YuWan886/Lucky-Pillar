@@ -3,6 +3,7 @@ execute if score #Game MapID matches 102 in yw-pillar:the_nether_2 run function 
 execute if score #Game MapID matches 103 run function yw-pillar:game/pillars/glass/ingame
 execute if score #Game MapID matches 104 run function yw-pillar:game/pillars/void/ingame
 execute if score #Game MapID matches 105 run function yw-pillar:game/pillars/tnt/ingame
+execute if score #Game MapID matches 106 run function yw-pillar:game/pillars/trap_door/ingame
 execute if score #Game MapID matches 201 run function yw-pillar:game/pillars/sea/ingame
 execute if score #Game MapID matches 202 run function yw-pillar:game/pillars/moon/ingame
 

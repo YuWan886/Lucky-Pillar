@@ -9,6 +9,8 @@ execute if score #Game MapID matches 103 run function yw-pillar:game/pillars/gla
 execute if score #Game MapID matches 104 run function yw-pillar:game/pillars/void/tp with storage yw-pillar:settings game
 # TNT
 execute if score #Game MapID matches 105 run function yw-pillar:game/pillars/tnt/tp with storage yw-pillar:settings game
+# 活板门
+execute if score #Game MapID matches 106 run function yw-pillar:game/pillars/trap_door/tp with storage yw-pillar:settings game
 # 海洋
 execute if score #Game MapID matches 201 run function yw-pillar:game/pillars/sea/tp with storage yw-pillar:settings game
 # 月球
