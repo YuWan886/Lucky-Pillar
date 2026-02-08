@@ -1,6 +1,17 @@
-# 0.1.8
+## 0.1.8-fix
 
-# Added
+### Fixed
+
+- 修复**红蓝对抗模式**无法结束的问题
+- 修复**地狱**传送错误
+
+### Fixed
+- Fixed **Red vs. Blue Mode** not ending properly
+- Fixed **Nether** teleportation error
+
+## 0.1.8
+
+### Added
 
 - **红蓝对抗模式**
 - 事件：
@@ -17,17 +28,17 @@
 - 补全物品进度
 - 重锤pvp,就在大厅底下
 
-# Changed
+### Changed
 
 - 双人模式现在没有友伤了
 - **手**的交互距离：6 -> 4
 
-# Fixed
+### Fixed
 
 - 有时候没有物品
 - 更换地图的提示错误
 
-# Added
+### Added
 
 - **Red vs. Blue Mode**
 - Events:
@@ -37,27 +48,27 @@
     - Rocket Boots: Allows a double jump while in the air
     - Invisibility Scarf: Makes the player invisible
     - Running Shoes: Movement speed +0.1
-    - TNT: TNT will fly upward (10% probability)
+    
 - Maps:
+    - TNT: TNT will fly upward (10% probability)
     - Trapdoor
 - **鱼丸说**: Author's ramblings
 - Complete item advancement
 - Heavy Hammer PvP is now located right under the lobby
 
-# Changed
+### Changed
 
 - Friendly fire has been removed in Duo mode
 - **Hand** interaction distance: 6 -> 4
 
-# Fixed
+### Fixed
 
 - Sometimes there are no items
 - Incorrect prompt for changing maps
 
+## 0.1.7
 
-# 0.1.7
-
-## Added
+### Added
 
 - mod兼容：所有附魔(应该)、[Farmer's Delight](https://modrinth.com/mod/7vxePowz)、[Mutant Monsters](https://modrinth.com/mod/derP0ten)
 - 事件：
@@ -70,16 +81,16 @@
 - 规则：
     - 虚空的仁慈：掉落虚空时将玩家向上传送60格
 
-## Changed
+### Changed
 
 - **下届之星**可以吃了
 - 清除了一些无用物品，比如，草
 
-## Fixed
+### Fixed
 
 - 修复玩家属性重置不了的bug
 
-## Added
+### Added
 
 - Mod compatibility: All enchantments (should be), [Farmer's Delight](https://modrinth.com/mod/7vxePowz), [Mutant Monsters](https://modrinth.com/mod/derP0ten)
 - Events:
@@ -92,12 +103,12 @@
 - Rules:
     - Void's Mercy: When falling into the void, teleport the player upward by 60 blocks
 
-## Changed
+### Changed
 
 - **Nether Star** can now be eaten
 - Removed some useless items, such as grass
 
-## Fixed
+### Fixed
 
 - Fixed bug where player attributes couldn't be reset
 

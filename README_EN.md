@@ -18,7 +18,8 @@
 - **Random Items**: Receive different weapons and items randomly each round
 - **Dynamic Events**: Various random events triggered during gameplay
 - **Survival Challenge**: Survive on limited platforms and defeat opponents
-- **Multi-language Support:** Currently supports:简/繁体中文、English
+- **Mod Compatibility**: Install **[certain mods](#compatibility-list)** to get additional content
+- **Multi-language Support:** Currently supports: 简/繁体中文、English
 
 ## Main Features
 
@@ -65,7 +66,7 @@
 | **Gigantification** | Player size +4 |
 | **Nuclear Power** | Summon a charged creeper named 'Broken Broken' |
 | **Rainy Day** | Weather changes to rain, obtain a trident with Riptide III |
-| **Greedy Slime** | Spawns a slime that increases in size by 1 for every 5 items it consumes |
+| **Greedy Slime** | Spawns a slime, eating drops increases in size |
 | **Location Exchange** | Random exchange of player locations |
 | **Lava Rising** | Lava rises at a speed of 1 b/s | 
 
@@ -89,6 +90,12 @@
 - World border gradually shrinks over time
 - When border shrinks to 5 blocks wide, platforms start collapsing
 - Each collapse height is 30 blocks
+
+### Compatibility List
+
+- All Enchantments
+- [Farmer's Delight](https://modrinth.com/mod/7vxePowz)
+- [Mutant Monsters](https://modrinth.com/mod/derP0ten)
 
 ### OP Command
 

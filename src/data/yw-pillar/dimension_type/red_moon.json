@@ -12,6 +12,7 @@
         "minecraft:visual/fog_color": "#990429",
         "minecraft:visual/sky_color": "#770940"
     },
+    "has_ender_dragon_fight": false,
     "coordinate_scale": 1.0,
     "has_ceiling": false,
     "has_skylight": true,
@@ -25,5 +26,5 @@
         "max_inclusive": 7,
         "min_inclusive": 0
     },
-    "timelines": "#in_overworld" 
+    "timelines": "#in_overworld"
 }
