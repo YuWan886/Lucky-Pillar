@@ -5,5 +5,5 @@ execute if score #Game EventID matches 21 as @a run attribute @s movement_speed 
 execute if score #Game EventID matches 22 as @a run attribute @s scale modifier remove yw-pillar:event.mini
 execute if score #Game EventID matches 23 as @a run attribute @s scale modifier remove yw-pillar:event.huge
 
-title @a times 0 2s 10t
+title @a times 10t 2s 10t
 tag @a remove event.17_king_game

@@ -15,6 +15,6 @@ tp @a[scores={Number=1}] 0 31 12 180 0
 tp @a[scores={Number=2}] 11 31 4 90 0
 tp @a[scores={Number=3}] -11 31 4 -90 0
 tp @a[scores={Number=4}] 7 31 -10 30 0
-tp @a[scores={Number=4}] -7 31 -10 -30 0
+tp @a[scores={Number=5}] -7 31 -10 -30 0
 
 give @a[tag=ingame] fishing_rod[unbreakable={},enchantments={lure:5},tooltip_display={hidden_components:["unbreakable"]}]

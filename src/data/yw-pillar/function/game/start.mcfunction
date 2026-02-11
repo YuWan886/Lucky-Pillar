@@ -32,14 +32,14 @@ execute store result score #Timer EventTimer run data get storage yw-pillar:sett
 execute store result score #Timer BorderTimer run data get storage yw-pillar:settings time.border_time
 execute store result score #Timer BeginTimer run data get storage yw-pillar:settings time.begin_time
 
+execute as @a run function yw-pillar:utils/player/reset/all
 function yw-pillar:utils/player/number/main
 function yw-pillar:game/pillars/tp
 function yw-pillar:game/sidebar/ingame
 function yw-pillar:schedule/countdown
-execute as @a run function yw-pillar:utils/player/reset/all
 execute as @a as @s at @s run function yw-pillar:utils/music
 
-title @a times 0 2s 10t
+title @a times 10t 2s 10t
 time set day
 
 gamerule keep_inventory false

@@ -1,0 +1,1 @@
+function yw-pillar:utils/player/name/2 with entity @s

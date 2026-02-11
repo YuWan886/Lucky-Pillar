@@ -24,9 +24,9 @@ data modify storage yw-pillar:settings time set value \
 team add Ready {text:"✅"}
 team modify Ready color green
 team modify Ready prefix {text:"[✅]",color:"green"}
-team add Spectator {text:"\ud83d\udc41"}
+team add Spectator {text:"👁"}
 team modify Spectator color gray
-team modify Spectator prefix {text:"[\ud83d\udc41]",color:"gray"}
+team modify Spectator prefix {text:"[👁]",color:"gray"}
 team add InGame {text:"⚔"}
 team modify InGame color green
 team modify InGame prefix {text:"[⚔]",color:"green"}

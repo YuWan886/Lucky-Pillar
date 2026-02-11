@@ -2,7 +2,7 @@
 
 # Lucky Pillar
 
-> **Version**: 0.1.8  
+> **Version**: 0.1.9  
 > **Creator**: 一条鱼丸_  
 > **Minecraft**: 1.21.11  
 
@@ -113,3 +113,8 @@ motd=§r§c幸§r§c运§r§d之§r§5柱§rv0.1.8§r\n§2作者：§r§b§l§n�
 resource-pack=https://github.com/YuWan886/YuWan-Server/releases/download/pack1/1.21.11-Lucky-Pillar.zip
 spawn-protection=0
 ```
+
+### Credits
+
+- [TheSalt's Text Effects](https://modrinth.com/resourcepack/thesalts-text-effects)
+- [ReShaded](https://modrinth.com/resourcepack/re-shaded)

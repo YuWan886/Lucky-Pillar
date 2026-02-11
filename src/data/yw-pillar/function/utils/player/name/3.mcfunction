@@ -1,0 +1,2 @@
+$scoreboard players display numberformat @s nametag fixed ["",{color:"$(color)","text":"$(name)",bold:true,shadow_color:0}]
+$tellraw @s ["",{text:"[Tips]",color:"gold",bold:true},{text:"你的称号已修改为 ",color:"green"},{text:"$(name)",color:"$(color)",bold:true,shadow_color:0}]

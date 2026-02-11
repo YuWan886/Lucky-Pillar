@@ -29,3 +29,5 @@ data modify storage yw-pillar:system info set value \
     ctx.data.filter["block"].append({"namespace": "minecraft","path":"advancement"})
     ctx.data.filter["block"].append({"namespace": "farmersdelight","path":"advancement"})
     ctx.data.filter["block"].append({"namespace": "mutantmonsters","path":"advancement"})
+
+    ctx.assets.description = [{"text":f"{ctx.project_name} [{ctx.project_version}] by {ctx.project_author}","color":"#FFFF61"}]

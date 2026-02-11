@@ -2,7 +2,7 @@
 
 # 幸运之柱
 
-> **版本**: 0.1.8  
+> **版本**: 0.1.9  
 > **作者**: 一条鱼丸_  
 > **Minecraft**: 1.21.11
 
@@ -114,6 +114,11 @@ motd=§r§c幸§r§c运§r§d之§r§5柱§rv0.1.7§r\n§2作者：§r§b§l§n�
 resource-pack=https://gh-proxy.org/https://github.com/YuWan886/YuWan-Server/releases/download/pack1/1.21.11-Lucky-Pillar.zip
 spawn-protection=0
 ```
+
+### Credits
+
+- [TheSalt's Text Effects](https://modrinth.com/resourcepack/thesalts-text-effects)
+- [ReShaded](https://modrinth.com/resourcepack/re-shaded)
 
 ## 开发笔记
 

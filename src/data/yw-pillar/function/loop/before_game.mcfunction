@@ -3,7 +3,6 @@ execute as @a[predicate=yw-pillar:player/lobby] run function yw-pillar:lobby/mai
 # 大厅 下
 execute as @a[predicate=yw-pillar:player/pvp] run function yw-pillar:lobby/pvp
 # 清理
-execute as @a if items entity @s player.cursor white_dye run item replace entity @s player.cursor with air
 kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{"item":"hotbar_item"}}}}]
 
 # Trigger

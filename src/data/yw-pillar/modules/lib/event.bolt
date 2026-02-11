@@ -1,4 +1,9 @@
-def event_template(name,color,desc):
-    title @a title ["",{text:f"{name}",color:f"{color}"}]
-    title @a subtitle ["",{text:f"{desc}"}]
+def event_template(name, color1="gold", desc=None, color2="white"):
+    # 如果 desc 为 None，使用 name 作为默认描述
+    actual_desc = desc or name
+    # 如果 color2 为 None，使用 "white" 作为默认颜色
+    actual_color2 = color2 or "white"
+    
+    title @a title ["", {text: f"{name}", color: f"{color1}"}]
+    title @a subtitle ["", {text: f"{actual_desc}", color: f"{actual_color2}"}]
     data modify storage yw-pillar:settings game.event_name set value f"{name}"
